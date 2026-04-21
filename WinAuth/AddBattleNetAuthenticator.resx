@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="newLabel1.Text" xml:space="preserve">
-    <value>1. Go to www.battle.net and login to your account.
-2. Click Security Options from the top menu, choose "Authenticator". Make sure you choose the MOBILE authenticator. Click "Attach Authenticator".
-3. You will received a confirmation email. Please follow its instructions.</value>
+    <value>1. 访问 www.battle.net 并登录您的账户。
+2. 点击顶部菜单的"安全选项"，选择"验证器"。请确保您选择的是移动端验证器。点击"绑定验证器"。
+3. 您将收到一封确认邮件，请按照邮件中的说明操作。</value>
   </data>
   <metadata name="newAuthenticatorTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

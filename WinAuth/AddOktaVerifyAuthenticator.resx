@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="setupLabel.Text" xml:space="preserve">
-    <value>1. Sign in to your Okta account.
-2. Configure "Okta Verify" when prompted to enroll.
-3. Select any device type (e.g. iOS).
-4. Click "Next".
-5. Click "Can't scan?" below the barcode.
-6. In the first dropdown, select "Setup manually without push notification". 
-7. Enter the Secret Key into the field below to verify the authenticator.</value>
+    <value>1. 登录您的 Okta 账户。
+2. 在提示注册时配置"Okta Verify"。
+3. 选择任意设备类型（如 iOS）。
+4. 点击"下一步"。
+5. 在条形码下方点击"无法扫描？"。
+6. 在第一个下拉菜单中选择"手动设置（不使用推送通知）"。
+7. 在下方字段中输入密钥以验证验证器。</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="oktaIcon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

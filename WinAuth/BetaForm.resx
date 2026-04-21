@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="betaLabel.Text" xml:space="preserve">
-    <value>Whilst every effort has been made to ensure your authenticator data cannot become corrupt, errors can happen.
+    <value>虽然已尽一切努力确保您的验证器数据不会损坏，但错误仍可能发生。
 
-If this is your first time running WinAuth, make sure you keep an unencrypted backup and write down the SERIAL number or SECRET keys. You may instead want to use the current stable version.
+如果您是第一次运行 WinAuth，请确保保留未加密的备份并记录序列号或密钥。您也可以考虑使用当前的稳定版本。
 
-If you have used WinAuth before and have an existing authenticator, please make an UNENCRYPTED copy of your current authenticator files. You should also write down your SECRET keys. Cancel this dialog and run the previous version of WinAuth. Either click the options button (cog) and choose "Export...", or use "Change Protection..." and remove your password before taking a copy of your winauth.xml file.
+如果您以前使用过 WinAuth 并已有现有验证器，请制作当前验证器文件的未加密副本。您还应该记录您的密钥。取消此对话框并运行先前版本的 WinAuth。点击选项按钮（齿轮图标）选择"导出..."，或使用"更改保护..."并在复制 winauth.xml 文件之前移除密码。
 
-Once you have made a copy you will always be able to restore that previous version. If you are at all unsure, click Cancel or remove the authenticator from your online account before proceeding.</value>
+一旦您制作了副本，您将始终能够恢复该先前版本。如果不确定，请点击"取消"或在继续之前从在线账户中删除验证器。</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

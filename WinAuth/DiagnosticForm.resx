@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label.Text" xml:space="preserve">
-    <value>The following diagnostic information can be used to track down bugs and issues in WinAuth.
+    <value>以下诊断信息可用于追踪 WinAuth 中的 Bug 和问题。
 
-Whilst this information does include information about your authenticator, it is only used by the WinAuth developers solely for the purposes of investigating bugs and issues. It does not include any personal or identifying information and has been encrypted using PGP so that it cannot be read by anyone else.
+虽然此信息包含有关您验证器的信息，但它仅由 WinAuth 开发人员用于调查 Bug 和问题。它不包含任何个人或身份识别信息，并已使用 PGP 加密，其他人无法读取。
 
-If you are happy to provide this information, please copy the text below and go to https://github.com/winauth/winauth/issues and register a new Issue.</value>
+如果您愿意提供此信息，请复制下方文本并前往 https://github.com/winauth/winauth/issues 提交新的 Issue。</value>
   </data>
 </root>

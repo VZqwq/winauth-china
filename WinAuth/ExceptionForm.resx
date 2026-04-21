@@ -118,14 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="errorLabel.Text" xml:space="preserve">
-    <value>An error has occured in WinAuth.
+    <value>WinAuth 发生错误。
 
 {0}
 
-Some diagnostic information has been recorded and saved that might help track down issues in WinAuth.
+已记录并保存了一些诊断信息，这些信息可能有助于追踪 WinAuth 中的问题。
 
-It would help if you can submit this information so we can investigate the crash and try and fix the issue. This information does include information about your authenticators but is only used by the WinAuth developers solely for the purpose of investigating bugs and error reports. It does not include any personal or identifying information. Any information sent has been encrypted using PGP and cannot be read by anyone else.
-
-If you are happy to send this information please either click Send Error Report or you can click Show Details and manually copy the text and file a bug report at https://github.com/winauth/winauth/issues</value>
+如果您愿意提交这些信息以帮助我们调查崩溃并尝试修复问题，请点击"发送错误报告"或点击"查看详情"手动复制文本，并在 https://github.com/winauth/winauth/issues 提交 Bug 报告。这些信息包含有关您验证器的信息，但仅由 WinAuth 开发人员用于调查 Bug 和错误报告，不包含任何个人或身份识别信息。所有发送的信息均已使用 PGP 加密，其他人无法读取。</value>
   </data>
 </root>

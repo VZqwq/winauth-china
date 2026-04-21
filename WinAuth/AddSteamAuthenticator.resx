@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="metroLabel3.Text" xml:space="preserve">
-    <value>You can import your SteamGuard authenticator from a rooted Android device. Navigate to the folder:
+    <value>您可以从已获取 Root 权限的 Android 设备导入 SteamGuard 验证器。请导航至以下文件夹：
 
   /data/data/com.valvesoftware.android.steam.community
 
-and then copy the contents of the following two files into the fields below.</value>
+然后将以下两个文件的内容复制到下方的输入框中。</value>
   </data>
 </root>

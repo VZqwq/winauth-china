@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="step1Label.Text" xml:space="preserve">
-    <value>1. Login to your GuildWars2 account.
-2. Click the "Security" option.
-3. Click the "Set Up The App" button.
-4. Optionally, add the app to your smartphone (if you want it there too). Click Next.
-5. Enter your Secret Code below</value>
+    <value>1. 登录您的 GuildWars2 账户。
+2. 点击"安全"选项。
+3. 点击"设置应用程序"按钮。
+4. 可选：将应用添加到您的智能手机（如果需要）。点击下一步。
+5. 在下方输入您的密钥代码</value>
   </data>
   <metadata name="newAuthenticatorTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

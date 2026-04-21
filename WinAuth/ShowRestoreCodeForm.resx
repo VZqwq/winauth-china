@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label4.Text" xml:space="preserve">
-    <value>The following are the Serial Number and Restore Code for your Battle.net authenticator.
+    <value>以下是您的 Battle.net 验证器的序列号和恢复代码。
 
-When your Authenticator was created, it was registered on the Battle.net servers and it can be retrieved using these two pieces of information.
+当您的验证器创建时，它已在 Battle.net 服务器上注册，可以使用这两条信息进行恢复。
 
-If you need to reinstall or move your authenticator, you can use the Restore feature on any Mobile Authenticator.
+如果您需要重新安装或迁移验证器，可以在任何移动端验证器上使用恢复功能。
 
-Copy these numbers down and keep them somewhere safe.</value>
+请抄下这些号码并妥善保管。</value>
   </data>
 </root>
