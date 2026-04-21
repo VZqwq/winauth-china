@@ -1,3 +1,5 @@
+# 这个仓库由ai接管，我本人不会c语言
+
 # Windows 验证器 (WinAuth)
 
 *WinAuth 是一款便携式、开源的 Windows 平台验证器，提供基于计数器或时间的 RFC 6238 验证器以及常见实现方案（如 Google 验证器）。WinAuth 可用于许多比特币交易网站以及游戏平台，支持 Battle.net（魔兽世界、炉石传说、风暴英雄、暗黑破坏神）、激战 2、Glyph（Rift 和上古世纪）、WildStar、RuneScape、SWTOR 以及 Steam。*
