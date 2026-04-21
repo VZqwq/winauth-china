@@ -52,7 +52,7 @@ namespace WinAuth
 			this.ckAgree.Name = "ckAgree";
 			this.ckAgree.Size = new System.Drawing.Size(340, 15);
 			this.ckAgree.TabIndex = 1;
-			this.ckAgree.Text = "I understand and accept the conditions of this BETA version.";
+			this.ckAgree.Text = "我理解并接受此 BETA 版本的条件。";
 			this.ckAgree.UseSelectable = true;
 			this.ckAgree.CheckedChanged += new System.EventHandler(this.ckAgree_CheckedChanged);
 			// 
@@ -64,7 +64,7 @@ namespace WinAuth
 			this.btnCancel.Name = "btnCancel";
 			this.btnCancel.Size = new System.Drawing.Size(75, 23);
 			this.btnCancel.TabIndex = 1;
-			this.btnCancel.Text = "Cancel";
+			this.btnCancel.Text = "取消";
 			this.btnCancel.UseSelectable = true;
 			// 
 			// btnOK
@@ -76,7 +76,7 @@ namespace WinAuth
 			this.btnOK.Name = "btnOK";
 			this.btnOK.Size = new System.Drawing.Size(75, 23);
 			this.btnOK.TabIndex = 0;
-			this.btnOK.Text = "OK";
+			this.btnOK.Text = "确定";
 			this.btnOK.UseSelectable = true;
 			this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
 			// 
@@ -94,7 +94,7 @@ namespace WinAuth
 			this.Controls.Add(this.btnCancel);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "BetaForm";
-			this.Text = "This is an BETA version of WinAuth {0}";
+			this.Text = "这是 WinAuth {0} 的 BETA 版本";
 			this.Load += new System.EventHandler(this.BetaForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

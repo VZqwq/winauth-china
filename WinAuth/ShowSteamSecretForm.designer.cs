@@ -63,7 +63,7 @@ namespace WinAuth
 			this.allowCopyCheckBox.Name = "allowCopyCheckBox";
 			this.allowCopyCheckBox.Size = new System.Drawing.Size(82, 15);
 			this.allowCopyCheckBox.TabIndex = 1;
-			this.allowCopyCheckBox.Text = "Allow copy";
+			this.allowCopyCheckBox.Text = "允许复制";
 			this.allowCopyCheckBox.UseSelectable = true;
 			this.allowCopyCheckBox.CheckedChanged += new System.EventHandler(this.allowCopyCheckBox_CheckedChanged);
 			// 
@@ -84,7 +84,7 @@ namespace WinAuth
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(75, 19);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "Code";
+			this.label2.Text = "代码";
 			// 
 			// label4
 			// 
@@ -92,7 +92,7 @@ namespace WinAuth
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(459, 89);
 			this.label4.TabIndex = 1;
-			this.label4.Text = "When your Authenticator was registered with Steam, a code was created that you ca" +
+			this.label4.Text = "当您的验证器在 Steam 注册时，会创建一个代码" +
     "n use within the Steam client to remove your authenticator.\r\n\r\nCopy it down and " +
     "keep it somewhere safe.";
 			// 
@@ -104,7 +104,7 @@ namespace WinAuth
 			this.btnClose.Name = "btnClose";
 			this.btnClose.Size = new System.Drawing.Size(75, 23);
 			this.btnClose.TabIndex = 2;
-			this.btnClose.Text = "Close";
+			this.btnClose.Text = "关闭";
 			this.btnClose.UseSelectable = true;
 			// 
 			// steamdataField
@@ -119,7 +119,7 @@ namespace WinAuth
 			this.steamdataField.SpaceOut = 0;
 			this.steamdataField.TabIndex = 0;
 			this.steamdataField.TabStop = false;
-			this.steamdataField.Text = "WARNING: There is no additional Steam data.\r\n\r\nYour authenticator was created in " +
+			this.steamdataField.Text = "警告：没有额外的 Steam 数据。\r\n\r\n您的验证器是在" +
     "an early version of WinAuth. You need to remove the authenticator from your Stea" +
     "m account and add a new one.";
 			// 
@@ -129,7 +129,7 @@ namespace WinAuth
 			this.metroLabel2.Name = "metroLabel2";
 			this.metroLabel2.Size = new System.Drawing.Size(75, 19);
 			this.metroLabel2.TabIndex = 1;
-			this.metroLabel2.Text = "Device ID";
+			this.metroLabel2.Text = "设备ID";
 			// 
 			// deviceidField
 			// 
@@ -149,7 +149,7 @@ namespace WinAuth
 			this.metroLabel3.Name = "metroLabel3";
 			this.metroLabel3.Size = new System.Drawing.Size(446, 40);
 			this.metroLabel3.TabIndex = 1;
-			this.metroLabel3.Text = "This is the full Steam data for your authenticator that can be used when importin" +
+			this.metroLabel3.Text = "这是您验证器的完整 Steam 数据，可在导入时使用" +
     "g into different software.";
 			// 
 			// ShowSteamSecretForm
@@ -172,7 +172,7 @@ namespace WinAuth
 			this.Name = "ShowSteamSecretForm";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Recovery Code";
+			this.Text = "恢复码";
 			this.Load += new System.EventHandler(this.ShowSteamSecretForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

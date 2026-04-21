@@ -66,7 +66,7 @@ namespace WinAuth
 			this.closeButton.Name = "closeButton";
 			this.closeButton.Size = new System.Drawing.Size(75, 23);
 			this.closeButton.TabIndex = 6;
-			this.closeButton.Text = "Close";
+			this.closeButton.Text = "关闭";
 			this.closeButton.UseSelectable = true;
 			// 
 			// DiagnosticForm
@@ -81,7 +81,7 @@ namespace WinAuth
 			this.Controls.Add(this.label);
 			this.Name = "DiagnosticForm";
 			this.Resizable = false;
-			this.Text = "Diagnostic Information";
+			this.Text = "诊断信息";
 			this.Load += new System.EventHandler(this.ErrorReportForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

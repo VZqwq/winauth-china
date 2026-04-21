@@ -76,9 +76,7 @@
 			this.introLabel.Name = "introLabel";
 			this.introLabel.Size = new System.Drawing.Size(718, 42);
 			this.introLabel.TabIndex = 1;
-			this.introLabel.Text = "Select how you would like to protect your authenticators. Using a password is str" +
-    "ongly recommended, otherwise your data could be read and stolen by malware runni" +
-    "ng on your computer.";
+			this.introLabel.Text = "选择您希望如何保护验证器。强烈建议使用密码，否则您可能会被运行在计算机上的恶意软件读取和窃取数据。";
 			// 
 			// machineCheckbox
 			// 
@@ -88,7 +86,7 @@
 			this.machineCheckbox.Name = "machineCheckbox";
 			this.machineCheckbox.Size = new System.Drawing.Size(296, 19);
 			this.machineCheckbox.TabIndex = 3;
-			this.machineCheckbox.Text = "Encrypt to only be useable on this computer";
+			this.machineCheckbox.Text = "加密为仅在此计算机上可用";
 			this.machineCheckbox.UseSelectable = true;
 			this.machineCheckbox.CheckedChanged += new System.EventHandler(this.machineCheckbox_CheckedChanged);
 			// 
@@ -101,7 +99,7 @@
 			this.userCheckbox.Name = "userCheckbox";
 			this.userCheckbox.Size = new System.Drawing.Size(310, 19);
 			this.userCheckbox.TabIndex = 4;
-			this.userCheckbox.Text = "And only by the current user on this computer";
+			this.userCheckbox.Text = "并且仅限此计算机上的当前用户";
 			this.userCheckbox.UseSelectable = true;
 			// 
 			// passwordCheckbox
@@ -112,7 +110,7 @@
 			this.passwordCheckbox.Name = "passwordCheckbox";
 			this.passwordCheckbox.Size = new System.Drawing.Size(214, 19);
 			this.passwordCheckbox.TabIndex = 0;
-			this.passwordCheckbox.Text = "Protect with my own password";
+			this.passwordCheckbox.Text = "使用我自己的密码保护";
 			this.passwordCheckbox.UseSelectable = true;
 			this.passwordCheckbox.CheckedChanged += new System.EventHandler(this.passwordCheckbox_CheckedChanged);
 			// 
@@ -158,7 +156,7 @@
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 6;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			// 
 			// okButton
@@ -169,7 +167,7 @@
 			this.okButton.Name = "okButton";
 			this.okButton.Size = new System.Drawing.Size(75, 23);
 			this.okButton.TabIndex = 5;
-			this.okButton.Text = "OK";
+			this.okButton.Text = "确定";
 			this.okButton.UseSelectable = true;
 			this.okButton.Click += new System.EventHandler(this.okButton_Click);
 			// 
@@ -208,7 +206,7 @@
 			this.verifyFieldLabel.Name = "verifyFieldLabel";
 			this.verifyFieldLabel.Size = new System.Drawing.Size(41, 19);
 			this.verifyFieldLabel.TabIndex = 5;
-			this.verifyFieldLabel.Text = "Verify";
+			this.verifyFieldLabel.Text = "确认";
 			// 
 			// passwordFieldLabel
 			// 
@@ -217,7 +215,7 @@
 			this.passwordFieldLabel.Name = "passwordFieldLabel";
 			this.passwordFieldLabel.Size = new System.Drawing.Size(63, 19);
 			this.passwordFieldLabel.TabIndex = 5;
-			this.passwordFieldLabel.Text = "Password";
+			this.passwordFieldLabel.Text = "密码";
 			// 
 			// machineLabel
 			// 
@@ -248,7 +246,7 @@
 			this.yubikeyBox.Name = "yubikeyBox";
 			this.yubikeyBox.Size = new System.Drawing.Size(147, 19);
 			this.yubikeyBox.TabIndex = 3;
-			this.yubikeyBox.Text = "Lock with a YubiKey";
+			this.yubikeyBox.Text = "使用 YubiKey 锁定";
 			this.yubikeyBox.UseSelectable = true;
 			this.yubikeyBox.CheckedChanged += new System.EventHandler(this.yubikeyBox_CheckedChanged);
 			// 
@@ -273,7 +271,7 @@
 			this.yubiPressToggle.OnText = null;
 			this.yubiPressToggle.Size = new System.Drawing.Size(80, 17);
 			this.yubiPressToggle.TabIndex = 11;
-			this.yubiPressToggle.Text = "Off";
+			this.yubiPressToggle.Text = "关闭";
 			this.yubiPressToggle.UseSelectable = true;
 			// 
 			// yubiSecretUpdateButton
@@ -282,7 +280,7 @@
 			this.yubiSecretUpdateButton.Name = "yubiSecretUpdateButton";
 			this.yubiSecretUpdateButton.Size = new System.Drawing.Size(100, 23);
 			this.yubiSecretUpdateButton.TabIndex = 10;
-			this.yubiSecretUpdateButton.Text = "Update Slot";
+			this.yubiSecretUpdateButton.Text = "更新插槽";
 			this.yubiSecretUpdateButton.UseSelectable = true;
 			this.yubiSecretUpdateButton.Click += new System.EventHandler(this.yubiSecretUpdateButton_Click);
 			// 
@@ -292,7 +290,7 @@
 			this.yubiCreateSecretButton.Name = "yubiCreateSecretButton";
 			this.yubiCreateSecretButton.Size = new System.Drawing.Size(75, 23);
 			this.yubiCreateSecretButton.TabIndex = 10;
-			this.yubiCreateSecretButton.Text = "Random";
+			this.yubiCreateSecretButton.Text = "随机生成";
 			this.yubiCreateSecretButton.UseSelectable = true;
 			this.yubiCreateSecretButton.Click += new System.EventHandler(this.yubiCreateSecretButton_Click);
 			// 
@@ -314,7 +312,7 @@
 			this.metroLabel4.Name = "metroLabel4";
 			this.metroLabel4.Size = new System.Drawing.Size(135, 23);
 			this.metroLabel4.TabIndex = 1;
-			this.metroLabel4.Text = "Require button press";
+			this.metroLabel4.Text = "需要按下按钮";
 			// 
 			// metroLabel3
 			// 
@@ -322,7 +320,7 @@
 			this.metroLabel3.Name = "metroLabel3";
 			this.metroLabel3.Size = new System.Drawing.Size(42, 23);
 			this.metroLabel3.TabIndex = 1;
-			this.metroLabel3.Text = "Slot";
+			this.metroLabel3.Text = "插槽";
 			// 
 			// yubikeyStatusLabel
 			// 
@@ -330,7 +328,7 @@
 			this.yubikeyStatusLabel.Name = "yubikeyStatusLabel";
 			this.yubikeyStatusLabel.Size = new System.Drawing.Size(322, 27);
 			this.yubikeyStatusLabel.TabIndex = 1;
-			this.yubikeyStatusLabel.Text = "Status";
+			this.yubikeyStatusLabel.Text = "状态";
 			this.yubikeyStatusLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
 			this.yubikeyStatusLabel.Visible = false;
 			// 
@@ -340,9 +338,8 @@
 			this.metroLabel1.Name = "metroLabel1";
 			this.metroLabel1.Size = new System.Drawing.Size(692, 47);
 			this.metroLabel1.TabIndex = 1;
-			this.metroLabel1.Text = "Your YubiKey must support Challenge-Response using HMAC-SHA1 in one of its slots." +
-    " Use the YubiKey personalization tool to configure the slot or click the Configu" +
-    "re Slot button.";
+			this.metroLabel1.Text = "您的 YubiKey 必须在其某个插槽中支持使用 HMAC-SHA1 的挑战-响应。" +
+    " 使用 YubiKey 个人化工具配置插槽，或点击"配置插槽"按钮。";
 			// 
 			// yubikeyCheckButton
 			// 
@@ -350,7 +347,7 @@
 			this.yubikeyCheckButton.Name = "yubikeyCheckButton";
 			this.yubikeyCheckButton.Size = new System.Drawing.Size(100, 23);
 			this.yubikeyCheckButton.TabIndex = 5;
-			this.yubikeyCheckButton.Text = "Use Slot";
+			this.yubikeyCheckButton.Text = "使用插槽";
 			this.yubikeyCheckButton.UseSelectable = true;
 			this.yubikeyCheckButton.Click += new System.EventHandler(this.yubikeyCheckButton_Click);
 			// 
@@ -360,7 +357,7 @@
 			this.yubikeyCreateButton.Name = "yubikeyCreateButton";
 			this.yubikeyCreateButton.Size = new System.Drawing.Size(100, 23);
 			this.yubikeyCreateButton.TabIndex = 5;
-			this.yubikeyCreateButton.Text = "Configure Slot";
+			this.yubikeyCreateButton.Text = "配置插槽";
 			this.yubikeyCreateButton.UseSelectable = true;
 			this.yubikeyCreateButton.Click += new System.EventHandler(this.yubikeyCreateButton_Click);
 			// 
@@ -370,7 +367,7 @@
 			this.metroLabel5.Name = "metroLabel5";
 			this.metroLabel5.Size = new System.Drawing.Size(73, 23);
 			this.metroLabel5.TabIndex = 12;
-			this.metroLabel5.Text = "Passphrase";
+			this.metroLabel5.Text = "密码短语";
 			// 
 			// yubiPanelExistsText
 			// 
@@ -380,8 +377,7 @@
 			this.yubiPanelExistsText.Name = "yubiPanelExistsText";
 			this.yubiPanelExistsText.Size = new System.Drawing.Size(260, 51);
 			this.yubiPanelExistsText.TabIndex = 13;
-			this.yubiPanelExistsText.Text = "Your YubiKey has already been assigned to protect your authenticators.  To remove" +
-    " it you must untick the above checkbox and click OK.";
+			this.yubiPanelExistsText.Text = "您的 YubiKey 已被分配用于保护验证器。要移除它，您必须取消勾选上述复选框并点击确定。";
 			// 
 			// yubiPanelIntro
 			// 
@@ -417,8 +413,7 @@
 			this.yubiConfigureIntroLabel.Name = "yubiConfigureIntroLabel";
 			this.yubiConfigureIntroLabel.Size = new System.Drawing.Size(536, 23);
 			this.yubiConfigureIntroLabel.TabIndex = 1;
-			this.yubiConfigureIntroLabel.Text = "Enter a pass phrase, or choose Random, then press Update Slot to configure your Y" +
-    "ubikey.";
+			this.yubiConfigureIntroLabel.Text = "输入密码短语，或选择随机生成，然后按"更新插槽"来配置您的 YubiKey。";
 			// 
 			// yubiPanelExists
 			// 
@@ -458,7 +453,7 @@
 			this.Controls.Add(this.introLabel);
 			this.Name = "ChangePasswordForm";
 			this.Resizable = false;
-			this.Text = "Protection";
+			this.Text = "保护设置";
 			this.Load += new System.EventHandler(this.ChangePasswordForm_Load);
 			this.Shown += new System.EventHandler(this.ChangePasswordForm_Shown);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

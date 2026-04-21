@@ -96,7 +96,7 @@
 			this.allowCopyNewButton.Name = "allowCopyNewButton";
 			this.allowCopyNewButton.Size = new System.Drawing.Size(87, 15);
 			this.allowCopyNewButton.TabIndex = 2;
-			this.allowCopyNewButton.Text = "Allow copy?";
+			this.allowCopyNewButton.Text = "允许复制？";
 			this.allowCopyNewButton.UseSelectable = true;
 			this.allowCopyNewButton.CheckedChanged += new System.EventHandler(this.allowCopyNewButton_CheckedChanged);
 			// 
@@ -109,7 +109,7 @@
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(92, 19);
 			this.label6.TabIndex = 1;
-			this.label6.Text = "Restore Code:";
+			this.label6.Text = "恢复码：";
 			// 
 			// label5
 			// 
@@ -120,7 +120,7 @@
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(80, 19);
 			this.label5.TabIndex = 1;
-			this.label5.Text = "Login Code:";
+			this.label5.Text = "登录码：";
 			// 
 			// enrollAuthenticatorButton
 			// 
@@ -128,7 +128,7 @@
 			this.enrollAuthenticatorButton.Name = "enrollAuthenticatorButton";
 			this.enrollAuthenticatorButton.Size = new System.Drawing.Size(166, 23);
 			this.enrollAuthenticatorButton.TabIndex = 0;
-			this.enrollAuthenticatorButton.Text = "Create Authenticator";
+			this.enrollAuthenticatorButton.Text = "创建验证器";
 			this.enrollAuthenticatorButton.UseSelectable = true;
 			this.enrollAuthenticatorButton.Click += new System.EventHandler(this.enrollAuthenticatorButton_Click);
 			// 
@@ -141,7 +141,7 @@
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(98, 19);
 			this.label4.TabIndex = 1;
-			this.label4.Text = "Serial Number:";
+			this.label4.Text = "序列号：";
 			// 
 			// lnewLabel4
 			// 
@@ -159,7 +159,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(435, 25);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "5. You will need to add the following details to your account.";
+			this.label2.Text = "5. 您需要将以下详细信息添加到您的账户。";
 			// 
 			// newLabel1
 			// 
@@ -192,7 +192,7 @@
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(98, 19);
 			this.label7.TabIndex = 1;
-			this.label7.Text = "Serial Number:";
+			this.label7.Text = "序列号：";
 			// 
 			// restoreSerialNumberField
 			// 
@@ -215,7 +215,7 @@
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(92, 19);
 			this.label8.TabIndex = 1;
-			this.label8.Text = "Restore Code:";
+			this.label8.Text = "恢复码：";
 			// 
 			// label9
 			// 
@@ -223,7 +223,7 @@
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(436, 53);
 			this.label9.TabIndex = 1;
-			this.label9.Text = "Enter your Serial Number and Restore Code from your previous authenticator.";
+			this.label9.Text = "输入您之前验证器的序列号和恢复码。";
 			// 
 			// importPrivateKeyField
 			// 
@@ -246,7 +246,7 @@
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(76, 19);
 			this.label11.TabIndex = 1;
-			this.label11.Text = "Private Key:";
+			this.label11.Text = "私钥：";
 			// 
 			// okButton
 			// 
@@ -256,7 +256,7 @@
 			this.okButton.Name = "okButton";
 			this.okButton.Size = new System.Drawing.Size(75, 23);
 			this.okButton.TabIndex = 2;
-			this.okButton.Text = "OK";
+			this.okButton.Text = "确定";
 			this.okButton.UseSelectable = true;
 			this.okButton.Click += new System.EventHandler(this.okButton_Click);
 			// 
@@ -268,7 +268,7 @@
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 3;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
 			// 
@@ -352,7 +352,7 @@
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(36, 19);
 			this.label10.TabIndex = 3;
-			this.label10.Text = "Icon:";
+			this.label10.Text = "图标：";
 			// 
 			// label12
 			// 
@@ -361,7 +361,7 @@
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(48, 19);
 			this.label12.TabIndex = 3;
-			this.label12.Text = "Name:";
+			this.label12.Text = "名称：";
 			// 
 			// nameField
 			// 
@@ -412,7 +412,7 @@
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
 			this.tabPage1.Size = new System.Drawing.Size(448, 298);
 			this.tabPage1.TabIndex = 0;
-			this.tabPage1.Text = "New Authenticator";
+			this.tabPage1.Text = "新建验证器";
 			this.tabPage1.VerticalScrollbarBarColor = true;
 			this.tabPage1.VerticalScrollbarHighlightOnWheel = false;
 			this.tabPage1.VerticalScrollbarSize = 10;
@@ -466,7 +466,7 @@
 			this.restoreAuthenticatorTab.Padding = new System.Windows.Forms.Padding(3);
 			this.restoreAuthenticatorTab.Size = new System.Drawing.Size(448, 298);
 			this.restoreAuthenticatorTab.TabIndex = 1;
-			this.restoreAuthenticatorTab.Text = "Restore Authenticator";
+			this.restoreAuthenticatorTab.Text = "恢复验证器";
 			this.restoreAuthenticatorTab.VerticalScrollbarBarColor = true;
 			this.restoreAuthenticatorTab.VerticalScrollbarHighlightOnWheel = false;
 			this.restoreAuthenticatorTab.VerticalScrollbarSize = 10;
@@ -485,7 +485,7 @@
 			this.importAuthenticatorTab.Padding = new System.Windows.Forms.Padding(3);
 			this.importAuthenticatorTab.Size = new System.Drawing.Size(448, 298);
 			this.importAuthenticatorTab.TabIndex = 2;
-			this.importAuthenticatorTab.Text = "Import Authenticator";
+			this.importAuthenticatorTab.Text = "导入验证器";
 			this.importAuthenticatorTab.VerticalScrollbarBarColor = true;
 			this.importAuthenticatorTab.VerticalScrollbarHighlightOnWheel = false;
 			this.importAuthenticatorTab.VerticalScrollbarSize = 10;
@@ -496,7 +496,7 @@
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(436, 55);
 			this.label13.TabIndex = 2;
-			this.label13.Text = "Enter the private key that has been exported from another authenticator program.";
+			this.label13.Text = "输入从另一个验证器程序导出的私钥。";
 			// 
 			// pictureBox2
 			// 
@@ -534,7 +534,7 @@
 			this.Name = "AddBattleNetAuthenticator";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Battle.net Authenticator";
+			this.Text = "战网验证器";
 			this.Load += new System.EventHandler(this.AddBattleNetAuthenticator_Load);
 			((System.ComponentModel.ISupportInitialize)(this.icon3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.icon2)).EndInit();

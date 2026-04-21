@@ -55,7 +55,7 @@
 			this.introLabel.Name = "introLabel";
 			this.introLabel.Size = new System.Drawing.Size(341, 27);
 			this.introLabel.TabIndex = 0;
-			this.introLabel.Text = "Select a shortcut key and action";
+			this.introLabel.Text = "选择快捷键和操作";
 			// 
 			// shiftToggle
 			// 
@@ -64,7 +64,7 @@
 			this.shiftToggle.Name = "shiftToggle";
 			this.shiftToggle.Size = new System.Drawing.Size(80, 17);
 			this.shiftToggle.TabIndex = 0;
-			this.shiftToggle.Text = "Off";
+			this.shiftToggle.Text = "关闭";
 			this.shiftToggle.UseSelectable = true;
 			// 
 			// ctrlLabel
@@ -101,7 +101,7 @@
 			this.ctrlToggle.Name = "ctrlToggle";
 			this.ctrlToggle.Size = new System.Drawing.Size(80, 17);
 			this.ctrlToggle.TabIndex = 1;
-			this.ctrlToggle.Text = "Off";
+			this.ctrlToggle.Text = "关闭";
 			this.ctrlToggle.UseSelectable = true;
 			// 
 			// altToggle
@@ -111,7 +111,7 @@
 			this.altToggle.Name = "altToggle";
 			this.altToggle.Size = new System.Drawing.Size(80, 17);
 			this.altToggle.TabIndex = 2;
-			this.altToggle.Text = "Off";
+			this.altToggle.Text = "关闭";
 			this.altToggle.UseSelectable = true;
 			// 
 			// keyCombo
@@ -178,7 +178,7 @@
 			this.keyLabel.Name = "keyLabel";
 			this.keyLabel.Size = new System.Drawing.Size(29, 19);
 			this.keyLabel.TabIndex = 2;
-			this.keyLabel.Text = "Key";
+			this.keyLabel.Text = "按键";
 			// 
 			// cancelButton
 			// 
@@ -188,7 +188,7 @@
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 11;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			// 
 			// okButton
@@ -199,7 +199,7 @@
 			this.okButton.Name = "okButton";
 			this.okButton.Size = new System.Drawing.Size(75, 23);
 			this.okButton.TabIndex = 10;
-			this.okButton.Text = "OK";
+			this.okButton.Text = "确定";
 			this.okButton.UseSelectable = true;
 			this.okButton.Click += new System.EventHandler(this.okButton_Click);
 			// 
@@ -212,7 +212,7 @@
 			this.injectRadioButton.Name = "injectRadioButton";
 			this.injectRadioButton.Size = new System.Drawing.Size(269, 15);
 			this.injectRadioButton.TabIndex = 5;
-			this.injectRadioButton.Text = "Enter code into current window or one called...";
+			this.injectRadioButton.Text = "将代码输入到当前窗口或指定窗口...";
 			this.injectRadioButton.UseSelectable = true;
 			this.injectRadioButton.CheckedChanged += new System.EventHandler(this.injectRadioButton_CheckedChanged);
 			// 
@@ -225,7 +225,7 @@
 			this.pasteRadioButton.Name = "pasteRadioButton";
 			this.pasteRadioButton.Size = new System.Drawing.Size(167, 15);
 			this.pasteRadioButton.TabIndex = 7;
-			this.pasteRadioButton.Text = "Copy code to the clipboard";
+			this.pasteRadioButton.Text = "复制代码到剪贴板";
 			this.pasteRadioButton.UseSelectable = true;
 			// 
 			// advancedRadioButton
@@ -237,7 +237,7 @@
 			this.advancedRadioButton.Name = "advancedRadioButton";
 			this.advancedRadioButton.Size = new System.Drawing.Size(85, 15);
 			this.advancedRadioButton.TabIndex = 8;
-			this.advancedRadioButton.Text = "Advanced...";
+			this.advancedRadioButton.Text = "高级...";
 			this.advancedRadioButton.UseSelectable = true;
 			this.advancedRadioButton.CheckedChanged += new System.EventHandler(this.advancedRadioButton_CheckedChanged);
 			// 
@@ -263,7 +263,7 @@
 			this.injectTextbox.MaxLength = 32767;
 			this.injectTextbox.Name = "injectTextbox";
 			this.injectTextbox.PasswordChar = '\0';
-			this.injectTextbox.PromptText = "Window title or process name";
+			this.injectTextbox.PromptText = "窗口标题或进程名";
 			this.injectTextbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
 			this.injectTextbox.SelectedText = "";
 			this.injectTextbox.Size = new System.Drawing.Size(315, 23);
@@ -281,7 +281,7 @@
 			this.advancedLink.Name = "advancedLink";
 			this.advancedLink.Size = new System.Drawing.Size(71, 15);
 			this.advancedLink.TabIndex = 11;
-			this.advancedLink.Text = "more info";
+			this.advancedLink.Text = "更多信息";
 			this.advancedLink.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.advancedLink.UseSelectable = true;
 			this.advancedLink.Click += new System.EventHandler(this.advancedLink_Click);
@@ -297,7 +297,7 @@
 			this.notifyRadioButton.Size = new System.Drawing.Size(125, 15);
 			this.notifyRadioButton.TabIndex = 4;
 			this.notifyRadioButton.TabStop = true;
-			this.notifyRadioButton.Text = "Show a notification";
+			this.notifyRadioButton.Text = "显示通知";
 			this.notifyRadioButton.UseSelectable = true;
 			this.notifyRadioButton.CheckedChanged += new System.EventHandler(this.injectRadioButton_CheckedChanged);
 			// 
@@ -328,7 +328,7 @@
 			this.Controls.Add(this.introLabel);
 			this.Name = "SetShortcutKeyForm";
 			this.Resizable = false;
-			this.Text = "Shortcut Key";
+			this.Text = "快捷键";
 			this.Load += new System.EventHandler(this.SetShortcutKeyForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

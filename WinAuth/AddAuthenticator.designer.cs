@@ -82,8 +82,7 @@ namespace WinAuth
       this.step1Label.Name = "step1Label";
       this.step1Label.Size = new System.Drawing.Size(425, 48);
       this.step1Label.TabIndex = 1;
-      this.step1Label.Text = "1. Enter the Secret Code or KeyUri string. Spaces don\'t matter. If you have a QR " +
-    "code, you can paste the URL of the image instead.\r\n";
+      this.step1Label.Text = "1. 输入密钥或 KeyUri 字符串。空格无关紧要。如果您有二维码，可以粘贴图像的 URL。\r\n";
       // 
       // okButton
       // 
@@ -93,7 +92,7 @@ namespace WinAuth
       this.okButton.Name = "okButton";
       this.okButton.Size = new System.Drawing.Size(75, 23);
       this.okButton.TabIndex = 3;
-      this.okButton.Text = "OK";
+      this.okButton.Text = "确定";
       this.okButton.UseSelectable = true;
       this.okButton.Click += new System.EventHandler(this.okButton_Click);
       // 
@@ -105,7 +104,7 @@ namespace WinAuth
       this.cancelButton.Name = "cancelButton";
       this.cancelButton.Size = new System.Drawing.Size(75, 23);
       this.cancelButton.TabIndex = 4;
-      this.cancelButton.Text = "Cancel";
+      this.cancelButton.Text = "取消";
       this.cancelButton.UseSelectable = true;
       this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
       // 
@@ -116,7 +115,7 @@ namespace WinAuth
       this.nameLabel.Name = "nameLabel";
       this.nameLabel.Size = new System.Drawing.Size(48, 19);
       this.nameLabel.TabIndex = 3;
-      this.nameLabel.Text = "Name:";
+      this.nameLabel.Text = "名称：";
       // 
       // nameField
       // 
@@ -136,8 +135,7 @@ namespace WinAuth
       this.step2Label.Name = "step2Label";
       this.step2Label.Size = new System.Drawing.Size(423, 49);
       this.step2Label.TabIndex = 10;
-      this.step2Label.Text = "2. Select additional settings. If you don\'t know, it\'s likely the pre-selected on" +
-    "es so just leave the default choice.";
+      this.step2Label.Text = "2. 选择附加设置。如果您不清楚，默认选项即可，直接保持默认选择。";
       // 
       // verifyButton
       // 
@@ -145,7 +143,7 @@ namespace WinAuth
       this.verifyButton.Name = "verifyButton";
       this.verifyButton.Size = new System.Drawing.Size(158, 23);
       this.verifyButton.TabIndex = 2;
-      this.verifyButton.Text = "Verify Authenticator";
+      this.verifyButton.Text = "验证验证器";
       this.verifyButton.UseSelectable = true;
       this.verifyButton.Click += new System.EventHandler(this.verifyButton_Click);
       // 
@@ -179,7 +177,7 @@ namespace WinAuth
       this.step5Label.Name = "step5Label";
       this.step5Label.Size = new System.Drawing.Size(296, 19);
       this.step5Label.TabIndex = 11;
-      this.step5Label.Text = "4. Verify the following code matches your service.";
+      this.step5Label.Text = "4. 验证以下代码与您的服务匹配。";
       // 
       // timer
       // 
@@ -193,7 +191,7 @@ namespace WinAuth
       this.step4TimerLabel.Name = "step4TimerLabel";
       this.step4TimerLabel.Size = new System.Drawing.Size(423, 28);
       this.step4TimerLabel.TabIndex = 10;
-      this.step4TimerLabel.Text = "3. Click the Verify button to check the first code.";
+      this.step4TimerLabel.Text = "3. 点击验证按钮检查第一个代码。";
       // 
       // timeBasedRadio
       // 
@@ -204,7 +202,7 @@ namespace WinAuth
       this.timeBasedRadio.Size = new System.Drawing.Size(86, 15);
       this.timeBasedRadio.TabIndex = 5;
       this.timeBasedRadio.TabStop = true;
-      this.timeBasedRadio.Text = "Time-based";
+      this.timeBasedRadio.Text = "基于时间";
       this.timeBasedRadio.UseSelectable = true;
       this.timeBasedRadio.CheckedChanged += new System.EventHandler(this.timeBasedRadio_CheckedChanged);
       // 
@@ -215,7 +213,7 @@ namespace WinAuth
       this.counterBasedRadio.Name = "counterBasedRadio";
       this.counterBasedRadio.Size = new System.Drawing.Size(102, 15);
       this.counterBasedRadio.TabIndex = 6;
-      this.counterBasedRadio.Text = "Counter-based";
+      this.counterBasedRadio.Text = "基于计数器";
       this.counterBasedRadio.UseSelectable = true;
       this.counterBasedRadio.CheckedChanged += new System.EventHandler(this.counterBasedRadio_CheckedChanged);
       // 
@@ -249,7 +247,7 @@ namespace WinAuth
       this.verifyCounterButton.Name = "verifyCounterButton";
       this.verifyCounterButton.Size = new System.Drawing.Size(158, 23);
       this.verifyCounterButton.TabIndex = 2;
-      this.verifyCounterButton.Text = "Verify Authenticator";
+      this.verifyCounterButton.Text = "验证验证器";
       this.verifyCounterButton.UseSelectable = true;
       this.verifyCounterButton.Click += new System.EventHandler(this.verifyButton_Click);
       // 
@@ -273,8 +271,7 @@ namespace WinAuth
       this.step4CounterLabel.Name = "step4CounterLabel";
       this.step4CounterLabel.Size = new System.Drawing.Size(423, 43);
       this.step4CounterLabel.TabIndex = 10;
-      this.step4CounterLabel.Text = "3. Enter the initial counter value if known. Click the Verify button that will sh" +
-    "ow the last code that was used.";
+      this.step4CounterLabel.Text = "3. 如果已知初始计数器值，请输入。点击验证按钮将显示上次使用的代码。";
       // 
       // hashField
       // 
@@ -310,7 +307,7 @@ namespace WinAuth
       this.labelTYpe.Name = "labelTYpe";
       this.labelTYpe.Size = new System.Drawing.Size(72, 21);
       this.labelTYpe.TabIndex = 10;
-      this.labelTYpe.Text = "Type";
+      this.labelTYpe.Text = "类型";
       // 
       // hashLabel
       // 
@@ -318,7 +315,7 @@ namespace WinAuth
       this.hashLabel.Name = "hashLabel";
       this.hashLabel.Size = new System.Drawing.Size(72, 21);
       this.hashLabel.TabIndex = 10;
-      this.hashLabel.Text = "Hash";
+      this.hashLabel.Text = "哈希";
       // 
       // periodLabel
       // 
@@ -326,7 +323,7 @@ namespace WinAuth
       this.periodLabel.Name = "periodLabel";
       this.periodLabel.Size = new System.Drawing.Size(72, 21);
       this.periodLabel.TabIndex = 10;
-      this.periodLabel.Text = "Interval";
+      this.periodLabel.Text = "间隔";
       // 
       // digitsField
       // 
@@ -348,7 +345,7 @@ namespace WinAuth
       this.digitsLabel.Name = "digitsLabel";
       this.digitsLabel.Size = new System.Drawing.Size(72, 21);
       this.digitsLabel.TabIndex = 10;
-      this.digitsLabel.Text = "Digits";
+      this.digitsLabel.Text = "位数";
       // 
       // intervalLabelPost
       // 
@@ -356,7 +353,7 @@ namespace WinAuth
       this.intervalLabelPost.Name = "intervalLabelPost";
       this.intervalLabelPost.Size = new System.Drawing.Size(129, 21);
       this.intervalLabelPost.TabIndex = 10;
-      this.intervalLabelPost.Text = "seconds";
+      this.intervalLabelPost.Text = "秒";
       // 
       // AddAuthenticator
       // 
@@ -392,7 +389,7 @@ namespace WinAuth
       this.Name = "AddAuthenticator";
       this.Resizable = false;
       this.ShowIcon = false;
-      this.Text = "Add Authenticator";
+      this.Text = "添加验证器";
       this.Load += new System.EventHandler(this.AddAuthenticator_Load);
       this.timeBasedPanel.ResumeLayout(false);
       this.counterBasedPanel.ResumeLayout(false);

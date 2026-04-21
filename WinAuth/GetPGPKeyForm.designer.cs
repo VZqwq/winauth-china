@@ -68,7 +68,7 @@
 			this.pgpLabel.Name = "pgpLabel";
 			this.pgpLabel.Size = new System.Drawing.Size(174, 19);
 			this.pgpLabel.TabIndex = 4;
-			this.pgpLabel.Text = "Enter or select your PGP key";
+			this.pgpLabel.Text = "输入或选择您的 PGP 密钥";
 			// 
 			// browseLabel
 			// 
@@ -77,7 +77,7 @@
 			this.browseLabel.Name = "browseLabel";
 			this.browseLabel.Size = new System.Drawing.Size(136, 19);
 			this.browseLabel.TabIndex = 4;
-			this.browseLabel.Text = "Or, select your key file";
+			this.browseLabel.Text = "或者，选择您的密钥文件";
 			// 
 			// passwordLabel
 			// 
@@ -86,7 +86,7 @@
 			this.passwordLabel.Name = "passwordLabel";
 			this.passwordLabel.Size = new System.Drawing.Size(161, 19);
 			this.passwordLabel.TabIndex = 4;
-			this.passwordLabel.Text = "If you key has a password ";
+			this.passwordLabel.Text = "如果您的密钥有密码 ";
 			// 
 			// browseButton
 			// 
@@ -123,7 +123,7 @@
 			this.passwordField.MaxLength = 32767;
 			this.passwordField.Name = "passwordField";
 			this.passwordField.PasswordChar = '●';
-			this.passwordField.PromptText = "Optional password";
+			this.passwordField.PromptText = "可选密码";
 			this.passwordField.ScrollBars = System.Windows.Forms.ScrollBars.None;
 			this.passwordField.SelectedText = "";
 			this.passwordField.Size = new System.Drawing.Size(394, 23);
@@ -151,7 +151,7 @@
 			this.MinimizeBox = false;
 			this.Name = "GetPGPKeyForm";
 			this.Resizable = false;
-			this.Text = "_GetPGPKeyForm_";
+			this.Text = "PGP 密钥";
 			this.Load += new System.EventHandler(this.GetPGPKeyForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

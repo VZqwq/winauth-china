@@ -88,7 +88,7 @@
 			// 
 			this.testToolStripMenuItem.Name = "testToolStripMenuItem";
 			this.testToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
-			this.testToolStripMenuItem.Text = "Test";
+			this.testToolStripMenuItem.Text = "测试";
 			// 
 			// addAuthenticatorMenu
 			// 
@@ -105,7 +105,7 @@
 			// 
 			this.notifyIcon.ContextMenuStrip = this.notifyMenu;
 			this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-			this.notifyIcon.Text = "WinAuth";
+			this.notifyIcon.Text = "WinAuth 验证器";
 			this.notifyIcon.Visible = true;
 			this.notifyIcon.DoubleClick += new System.EventHandler(this.notifyIcon_DoubleClick);
 			// 
@@ -147,7 +147,7 @@
 			this.yubiRetryButton.Name = "yubiRetryButton";
 			this.yubiRetryButton.Size = new System.Drawing.Size(75, 23);
 			this.yubiRetryButton.TabIndex = 5;
-			this.yubiRetryButton.Text = "OK";
+			this.yubiRetryButton.Text = "确定";
 			this.yubiRetryButton.UseSelectable = true;
 			this.yubiRetryButton.Click += new System.EventHandler(this.yubiRetryButton_Click);
 			// 
@@ -158,7 +158,7 @@
 			this.yubiLabel.Name = "yubiLabel";
 			this.yubiLabel.Size = new System.Drawing.Size(324, 19);
 			this.yubiLabel.TabIndex = 4;
-			this.yubiLabel.Text = "Please insert your YubiKey or press the flashing button";
+			this.yubiLabel.Text = "请插入您的 YubiKey 或按下闪烁的按钮";
 			// 
 			// yubiImage
 			// 
@@ -192,7 +192,7 @@
 			this.passwordButton.Name = "passwordButton";
 			this.passwordButton.Size = new System.Drawing.Size(75, 23);
 			this.passwordButton.TabIndex = 1;
-			this.passwordButton.Text = "OK";
+			this.passwordButton.Text = "确定";
 			this.passwordButton.UseSelectable = true;
 			this.passwordButton.Click += new System.EventHandler(this.passwordButton_Click);
 			// 
@@ -212,7 +212,7 @@
 			this.passwordLabel.Name = "passwordLabel";
 			this.passwordLabel.Size = new System.Drawing.Size(63, 19);
 			this.passwordLabel.TabIndex = 3;
-			this.passwordLabel.Text = "Password";
+			this.passwordLabel.Text = "密码";
 			// 
 			// passwordField
 			// 
@@ -234,7 +234,7 @@
 			this.introLabel.Name = "introLabel";
 			this.introLabel.Size = new System.Drawing.Size(377, 35);
 			this.introLabel.TabIndex = 3;
-			this.introLabel.Text = "Click the \"Add\" button to create or import your authenticator";
+			this.introLabel.Text = "点击"添加"按钮来创建或导入验证器";
 			this.introLabel.Visible = false;
 			// 
 			// commandPanel
@@ -263,7 +263,7 @@
 			this.newVersionLink.Name = "newVersionLink";
 			this.newVersionLink.Size = new System.Drawing.Size(225, 23);
 			this.newVersionLink.TabIndex = 2;
-			this.newVersionLink.Text = "New version is available";
+			this.newVersionLink.Text = "有新版本可用";
 			this.newVersionLink.UseSelectable = true;
 			this.newVersionLink.Visible = false;
 			this.newVersionLink.Click += new System.EventHandler(this.newVersionLink_Click);
@@ -288,7 +288,7 @@
 			this.addAuthenticatorButton.Name = "addAuthenticatorButton";
 			this.addAuthenticatorButton.Size = new System.Drawing.Size(70, 23);
 			this.addAuthenticatorButton.TabIndex = 0;
-			this.addAuthenticatorButton.Text = "Add";
+			this.addAuthenticatorButton.Text = "添加";
 			this.addAuthenticatorButton.UseSelectable = true;
 			this.addAuthenticatorButton.Click += new System.EventHandler(this.addAuthenticatorButton_Click);
 			// 
@@ -363,7 +363,7 @@
 			this.Resizable = false;
 			this.ShadowType = MetroFormShadowType.None;
 			this.StyleManager = this.metroStyleManager;
-			this.Text = "WinAuth";
+			this.Text = "WinAuth 验证器";
 			this.TopMost = true;
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WinAuthForm_FormClosing);
 			this.Load += new System.EventHandler(this.WinAuthForm_Load);

@@ -62,7 +62,7 @@ namespace WinAuth
 			this.allowCopyCheckBox.Name = "allowCopyCheckBox";
 			this.allowCopyCheckBox.Size = new System.Drawing.Size(82, 15);
 			this.allowCopyCheckBox.TabIndex = 5;
-			this.allowCopyCheckBox.Text = "Allow copy";
+			this.allowCopyCheckBox.Text = "允许复制";
 			this.allowCopyCheckBox.UseSelectable = true;
 			this.allowCopyCheckBox.CheckedChanged += new System.EventHandler(this.allowCopyCheckBox_CheckedChanged);
 			// 
@@ -103,7 +103,7 @@ namespace WinAuth
 			this.btnClose.Name = "btnClose";
 			this.btnClose.Size = new System.Drawing.Size(75, 23);
 			this.btnClose.TabIndex = 4;
-			this.btnClose.Text = "Close";
+			this.btnClose.Text = "关闭";
 			this.btnClose.UseSelectable = true;
 			// 
 			// metroLabel1
@@ -112,7 +112,7 @@ namespace WinAuth
 			this.metroLabel1.Name = "metroLabel1";
 			this.metroLabel1.Size = new System.Drawing.Size(361, 33);
 			this.metroLabel1.TabIndex = 1;
-			this.metroLabel1.Text = "You can also scan the QR code with your mobile device.";
+			this.metroLabel1.Text = "您也可以使用移动设备扫描二维码。";
 			// 
 			// ShowSecretKeyForm
 			// 
@@ -131,7 +131,7 @@ namespace WinAuth
 			this.Name = "ShowSecretKeyForm";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Secret Key";
+			this.Text = "密钥";
 			this.Load += new System.EventHandler(this.ShowSecretKeyForm_Load);
 			((System.ComponentModel.ISupportInitialize)(this.qrImage)).EndInit();
 			this.ResumeLayout(false);

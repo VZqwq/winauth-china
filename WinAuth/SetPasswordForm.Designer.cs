@@ -143,7 +143,7 @@
 			this.Controls.Add(this.setPasswordLabel);
 			this.Name = "SetPasswordForm";
 			this.Resizable = false;
-			this.Text = "SetPasswordForm";
+			this.Text = "设置密码";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

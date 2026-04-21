@@ -56,8 +56,8 @@
 			this.introLabel.Name = "introLabel";
 			this.introLabel.Size = new System.Drawing.Size(484, 50);
 			this.introLabel.TabIndex = 1;
-			this.introLabel.Text = "This will export a text file with an authenticator per line in Google\'s KeyUriFor" +
-    "mat that can be imported into WinAuth or some other authenticator applications.";
+			this.introLabel.Text = "这将导出一个文本文件，每行一个验证器，使用 Google 的 KeyUriFor" +
+    "mat 格式，可导入 WinAuth 或其他验证器应用。";
 			// 
 			// passwordCheckbox
 			// 
@@ -67,7 +67,7 @@
 			this.passwordCheckbox.Name = "passwordCheckbox";
 			this.passwordCheckbox.Size = new System.Drawing.Size(252, 19);
 			this.passwordCheckbox.TabIndex = 0;
-			this.passwordCheckbox.Text = "Protect with a password (zip file only)";
+			this.passwordCheckbox.Text = "使用密码保护（仅限zip文件）";
 			this.passwordCheckbox.UseSelectable = true;
 			this.passwordCheckbox.CheckedChanged += new System.EventHandler(this.passwordCheckbox_CheckedChanged);
 			// 
@@ -92,7 +92,7 @@
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 6;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			// 
 			// okButton
@@ -103,7 +103,7 @@
 			this.okButton.Name = "okButton";
 			this.okButton.Size = new System.Drawing.Size(75, 23);
 			this.okButton.TabIndex = 5;
-			this.okButton.Text = "OK";
+			this.okButton.Text = "确定";
 			this.okButton.UseSelectable = true;
 			this.okButton.Click += new System.EventHandler(this.okButton_Click);
 			// 
@@ -142,7 +142,7 @@
 			this.verifyFieldLabel.Name = "verifyFieldLabel";
 			this.verifyFieldLabel.Size = new System.Drawing.Size(41, 19);
 			this.verifyFieldLabel.TabIndex = 5;
-			this.verifyFieldLabel.Text = "Verify";
+			this.verifyFieldLabel.Text = "确认";
 			// 
 			// passwordFieldLabel
 			// 
@@ -151,7 +151,7 @@
 			this.passwordFieldLabel.Name = "passwordFieldLabel";
 			this.passwordFieldLabel.Size = new System.Drawing.Size(63, 19);
 			this.passwordFieldLabel.TabIndex = 5;
-			this.passwordFieldLabel.Text = "Password";
+			this.passwordFieldLabel.Text = "密码";
 			// 
 			// pgpCheckbox
 			// 
@@ -161,7 +161,7 @@
 			this.pgpCheckbox.Name = "pgpCheckbox";
 			this.pgpCheckbox.Size = new System.Drawing.Size(205, 19);
 			this.pgpCheckbox.TabIndex = 0;
-			this.pgpCheckbox.Text = "Protect with a PGP Public key";
+			this.pgpCheckbox.Text = "使用 PGP 公钥保护";
 			this.pgpCheckbox.UseSelectable = true;
 			this.pgpCheckbox.CheckedChanged += new System.EventHandler(this.pgpCheckbox_CheckedChanged);
 			// 
@@ -172,7 +172,7 @@
 			this.pgpBrowse.Name = "pgpBrowse";
 			this.pgpBrowse.Size = new System.Drawing.Size(186, 23);
 			this.pgpBrowse.TabIndex = 8;
-			this.pgpBrowse.Text = "Browse for the PGP key file...";
+			this.pgpBrowse.Text = "浏览选择 PGP 密钥文件...";
 			this.pgpBrowse.UseSelectable = true;
 			this.pgpBrowse.Click += new System.EventHandler(this.pgpBrowseButton_Click);
 			// 
@@ -199,7 +199,7 @@
 			this.orLabel.Name = "orLabel";
 			this.orLabel.Size = new System.Drawing.Size(22, 19);
 			this.orLabel.TabIndex = 5;
-			this.orLabel.Text = "or";
+			this.orLabel.Text = "或";
 			// 
 			// fileField
 			// 
@@ -221,8 +221,8 @@
 			this.metroLabel1.Name = "metroLabel1";
 			this.metroLabel1.Size = new System.Drawing.Size(484, 50);
 			this.metroLabel1.TabIndex = 1;
-			this.metroLabel1.Text = "Select the file to be saved. This will be a \".zip\" file if you have used a passwo" +
-    "rd, a .pgp file if you have used a PGP key, otherwise a plain .txt file";
+			this.metroLabel1.Text = "选择要保存的文件。如果使用了密码，这将是\".zip\"文件" +
+    "，如果使用了 PGP 密钥则是 .pgp 文件，否则为普通 .txt 文件";
 			// 
 			// browseButton
 			// 
@@ -231,7 +231,7 @@
 			this.browseButton.Name = "browseButton";
 			this.browseButton.Size = new System.Drawing.Size(75, 23);
 			this.browseButton.TabIndex = 8;
-			this.browseButton.Text = "Browse...";
+			this.browseButton.Text = "浏览...";
 			this.browseButton.UseSelectable = true;
 			this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
 			// 
@@ -243,8 +243,8 @@
 			this.metroLabel2.Name = "metroLabel2";
 			this.metroLabel2.Size = new System.Drawing.Size(484, 50);
 			this.metroLabel2.TabIndex = 1;
-			this.metroLabel2.Text = "WARNING: If your authenticators have their own password, you will be asked for ea" +
-    "ch in turn. Cancelling any password will exclude it from the export.\r\n";
+			this.metroLabel2.Text = "警告：如果您的验证器有自己的密码，系统会逐一询问。" +
+    "取消任何密码输入将排除该验证器的导出。\r\n";
 			// 
 			// ExportForm
 			// 
@@ -273,7 +273,7 @@
 			this.Controls.Add(this.introLabel);
 			this.Name = "ExportForm";
 			this.Resizable = false;
-			this.Text = "Export";
+			this.Text = "导出";
 			this.Load += new System.EventHandler(this.ExportForm_Load);
 			this.Shown += new System.EventHandler(this.ExportForm_Shown);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -62,7 +62,7 @@ namespace WinAuth
 			this.allowCopyCheckBox.Name = "allowCopyCheckBox";
 			this.allowCopyCheckBox.Size = new System.Drawing.Size(82, 15);
 			this.allowCopyCheckBox.TabIndex = 4;
-			this.allowCopyCheckBox.Text = "Allow copy";
+			this.allowCopyCheckBox.Text = "允许复制";
 			this.allowCopyCheckBox.UseSelectable = true;
 			this.allowCopyCheckBox.CheckedChanged += new System.EventHandler(this.allowCopyCheckBox_CheckedChanged);
 			// 
@@ -83,7 +83,7 @@ namespace WinAuth
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(118, 19);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Serial Number";
+			this.label1.Text = "序列号";
 			// 
 			// deviceIdField
 			// 
@@ -102,7 +102,7 @@ namespace WinAuth
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(118, 19);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "Device ID";
+			this.label2.Text = "设备ID";
 			// 
 			// label4
 			// 
@@ -120,7 +120,7 @@ namespace WinAuth
 			this.btnClose.Name = "btnClose";
 			this.btnClose.Size = new System.Drawing.Size(75, 23);
 			this.btnClose.TabIndex = 4;
-			this.btnClose.Text = "Close";
+			this.btnClose.Text = "关闭";
 			this.btnClose.UseSelectable = true;
 			// 
 			// ShowTrionSecretForm
@@ -141,7 +141,7 @@ namespace WinAuth
 			this.Name = "ShowTrionSecretForm";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Restore Code";
+			this.Text = "恢复码";
 			this.Load += new System.EventHandler(this.ShowTrionSecretForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

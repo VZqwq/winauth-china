@@ -75,7 +75,7 @@ namespace WinAuth
 			this.allowCopyButton.Name = "allowCopyButton";
 			this.allowCopyButton.Size = new System.Drawing.Size(87, 15);
 			this.allowCopyButton.TabIndex = 6;
-			this.allowCopyButton.Text = "Allow copy?";
+			this.allowCopyButton.Text = "允许复制？";
 			this.allowCopyButton.UseSelectable = true;
 			this.allowCopyButton.CheckedChanged += new System.EventHandler(this.allowCopyButton_CheckedChanged);
 			// 
@@ -96,7 +96,7 @@ namespace WinAuth
 			this.verifyAuthenticatorButton.Name = "verifyAuthenticatorButton";
 			this.verifyAuthenticatorButton.Size = new System.Drawing.Size(159, 23);
 			this.verifyAuthenticatorButton.TabIndex = 5;
-			this.verifyAuthenticatorButton.Text = "Verify Authenticator";
+			this.verifyAuthenticatorButton.Text = "验证验证器";
 			this.verifyAuthenticatorButton.UseSelectable = true;
 			this.verifyAuthenticatorButton.Click += new System.EventHandler(this.verifyAuthenticatorButton_Click);
 			// 
@@ -120,8 +120,8 @@ namespace WinAuth
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(425, 56);
 			this.label3.TabIndex = 1;
-			this.label3.Text = "10. IMPORTANT: Write down you Secret Code and store it somewhere safe and secure." +
-    " You will need it if you ever need to restore your authenticator.";
+			this.label3.Text = "10. 重要：请记下您的密钥并妥善保管。" +
+    " 如果需要恢复验证器，您将需要它。";
 			// 
 			// step9Label
 			// 
@@ -129,7 +129,7 @@ namespace WinAuth
 			this.step9Label.Name = "step9Label";
 			this.step9Label.Size = new System.Drawing.Size(425, 26);
 			this.step9Label.TabIndex = 1;
-			this.step9Label.Text = "9. Enter the following code to verify it is working.";
+			this.step9Label.Text = "9. 输入以下代码以验证其是否正常工作。";
 			// 
 			// label2
 			// 
@@ -147,7 +147,7 @@ namespace WinAuth
 			this.okButton.Name = "okButton";
 			this.okButton.Size = new System.Drawing.Size(75, 23);
 			this.okButton.TabIndex = 7;
-			this.okButton.Text = "OK";
+			this.okButton.Text = "确定";
 			this.okButton.UseSelectable = true;
 			this.okButton.Click += new System.EventHandler(this.okButton_Click);
 			// 
@@ -159,7 +159,7 @@ namespace WinAuth
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 8;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
 			// 
@@ -238,7 +238,7 @@ namespace WinAuth
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(36, 19);
 			this.label10.TabIndex = 3;
-			this.label10.Text = "Icon:";
+			this.label10.Text = "图标：";
 			// 
 			// label12
 			// 
@@ -247,7 +247,7 @@ namespace WinAuth
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(48, 19);
 			this.label12.TabIndex = 3;
-			this.label12.Text = "Name:";
+			this.label12.Text = "名称：";
 			// 
 			// nameField
 			// 
@@ -271,7 +271,7 @@ namespace WinAuth
 			this.step8Label.Name = "step8Label";
 			this.step8Label.Size = new System.Drawing.Size(51, 25);
 			this.step8Label.TabIndex = 11;
-			this.step8Label.Text = "8. Click.";
+			this.step8Label.Text = "8. 点击。";
 			// 
 			// AddMicrosoftAuthenticator
 			// 
@@ -305,7 +305,7 @@ namespace WinAuth
 			this.Name = "AddMicrosoftAuthenticator";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Microsoft Authenticator";
+			this.Text = "微软验证器";
 			this.Load += new System.EventHandler(this.AddMicrosoftAuthenticator_Load);
 			((System.ComponentModel.ISupportInitialize)(this.icon3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.icon2)).EndInit();

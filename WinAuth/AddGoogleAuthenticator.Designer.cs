@@ -73,8 +73,8 @@ namespace WinAuth
 			this.step1Label.Name = "step1Label";
 			this.step1Label.Size = new System.Drawing.Size(425, 48);
 			this.step1Label.TabIndex = 1;
-			this.step1Label.Text = "1. Enter the Secret Code for your authenticator. Spaces don\'t matter. If you have a Q" +
-    "R code, you can paste the URL of the image instead.\r\n";
+			this.step1Label.Text = "1. 输入您的验证器密钥。空格无关紧要。如果您有二维码" +
+    "，您可以粘贴图片的URL。\r\n";
 			// 
 			// okButton
 			// 
@@ -84,7 +84,7 @@ namespace WinAuth
 			this.okButton.Name = "okButton";
 			this.okButton.Size = new System.Drawing.Size(75, 23);
 			this.okButton.TabIndex = 6;
-			this.okButton.Text = "OK";
+			this.okButton.Text = "确定";
 			this.okButton.UseSelectable = true;
 			this.okButton.Click += new System.EventHandler(this.okButton_Click);
 			// 
@@ -96,7 +96,7 @@ namespace WinAuth
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 7;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
 			// 
@@ -175,7 +175,7 @@ namespace WinAuth
 			this.iconLabel.Name = "iconLabel";
 			this.iconLabel.Size = new System.Drawing.Size(36, 19);
 			this.iconLabel.TabIndex = 3;
-			this.iconLabel.Text = "Icon:";
+			this.iconLabel.Text = "图标：";
 			// 
 			// nameLabel
 			// 
@@ -184,7 +184,7 @@ namespace WinAuth
 			this.nameLabel.Name = "nameLabel";
 			this.nameLabel.Size = new System.Drawing.Size(48, 19);
 			this.nameLabel.TabIndex = 3;
-			this.nameLabel.Text = "Name:";
+			this.nameLabel.Text = "名称：";
 			// 
 			// nameField
 			// 
@@ -204,7 +204,7 @@ namespace WinAuth
 			this.step2Label.Name = "step2Label";
 			this.step2Label.Size = new System.Drawing.Size(51, 25);
 			this.step2Label.TabIndex = 10;
-			this.step2Label.Text = "2. Click";
+			this.step2Label.Text = "2. 点击";
 			// 
 			// verifyButton
 			// 
@@ -212,7 +212,7 @@ namespace WinAuth
 			this.verifyButton.Name = "verifyButton";
 			this.verifyButton.Size = new System.Drawing.Size(158, 23);
 			this.verifyButton.TabIndex = 5;
-			this.verifyButton.Text = "Verify Authenticator";
+			this.verifyButton.Text = "验证验证器";
 			this.verifyButton.UseSelectable = true;
 			this.verifyButton.Click += new System.EventHandler(this.verifyButton_Click);
 			// 
@@ -246,7 +246,7 @@ namespace WinAuth
 			this.step3Label.Name = "step3Label";
 			this.step3Label.Size = new System.Drawing.Size(293, 19);
 			this.step3Label.TabIndex = 11;
-			this.step3Label.Text = "3. Verify the following code matches your service";
+			this.step3Label.Text = "3. 验证以下代码与您的服务匹配";
 			// 
 			// timer
 			// 
@@ -284,7 +284,7 @@ namespace WinAuth
 			this.Name = "AddGoogleAuthenticator";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Add Google Authenticator";
+			this.Text = "添加 Google 验证器";
 			this.Load += new System.EventHandler(this.AddGoogleAuthenticator_Load);
 			((System.ComponentModel.ISupportInitialize)(this.icon3)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.icon2)).EndInit();

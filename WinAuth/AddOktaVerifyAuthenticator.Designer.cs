@@ -82,7 +82,7 @@
             this.verifyAuthenticatorButton.Name = "verifyAuthenticatorButton";
             this.verifyAuthenticatorButton.Size = new System.Drawing.Size(159, 23);
             this.verifyAuthenticatorButton.TabIndex = 2;
-            this.verifyAuthenticatorButton.Text = "Verify Authenticator";
+            this.verifyAuthenticatorButton.Text = "验证验证器";
             this.verifyAuthenticatorButton.UseSelectable = true;
             this.verifyAuthenticatorButton.Click += new System.EventHandler(this.verifyAuthenticatorButton_Click);
             // 
@@ -117,7 +117,7 @@
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 3;
-            this.okButton.Text = "OK";
+            this.okButton.Text = "确定";
             this.okButton.UseSelectable = true;
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
@@ -129,7 +129,7 @@
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(75, 23);
             this.cancelButton.TabIndex = 4;
-            this.cancelButton.Text = "Cancel";
+            this.cancelButton.Text = "取消";
             this.cancelButton.UseSelectable = true;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
@@ -163,7 +163,7 @@
             this.iconLabel.Name = "iconLabel";
             this.iconLabel.Size = new System.Drawing.Size(36, 19);
             this.iconLabel.TabIndex = 3;
-            this.iconLabel.Text = "Icon:";
+            this.iconLabel.Text = "图标：";
             // 
             // nameLabel
             // 
@@ -172,7 +172,7 @@
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(48, 19);
             this.nameLabel.TabIndex = 3;
-            this.nameLabel.Text = "Name:";
+            this.nameLabel.Text = "名称：";
             // 
             // nameField
             // 
@@ -197,7 +197,7 @@
             this.step8Label.Name = "step8Label";
             this.step8Label.Size = new System.Drawing.Size(434, 22);
             this.step8Label.TabIndex = 0;
-            this.step8Label.Text = "8. Click \"Next\" in the setup flow and enter the code provided here:";
+            this.step8Label.Text = "8. 在设置流程中点击"下一步"并输入此处提供的代码：";
             // 
             // step9Label
             // 
@@ -206,7 +206,7 @@
             this.step9Label.Name = "step9Label";
             this.step9Label.Size = new System.Drawing.Size(434, 35);
             this.step9Label.TabIndex = 0;
-            this.step9Label.Text = "9. Click \"Verify\" to finish.";
+            this.step9Label.Text = "9. 点击"验证"完成。";
             // 
             // linkLabel1
             // 
@@ -233,7 +233,7 @@
             this.helpLabel.Name = "helpLabel";
             this.helpLabel.Size = new System.Drawing.Size(116, 15);
             this.helpLabel.TabIndex = 0;
-            this.helpLabel.Text = "Visit Okta Support for";
+            this.helpLabel.Text = "访问 Okta 支持页面获取";
             // 
             // helpLink
             // 
@@ -243,7 +243,7 @@
             this.helpLink.Name = "helpLink";
             this.helpLink.Size = new System.Drawing.Size(122, 23);
             this.helpLink.TabIndex = 5;
-            this.helpLink.Text = "detailed instructions";
+            this.helpLink.Text = "详细说明";
             this.helpLink.UseCustomForeColor = true;
             this.helpLink.UseSelectable = true;
             this.helpLink.Click += new System.EventHandler(this.helpLink_Click);
@@ -278,7 +278,7 @@
             this.Name = "AddOktaVerifyAuthenticator";
             this.Resizable = false;
             this.ShowIcon = false;
-            this.Text = "Okta Verify Authenticator";
+            this.Text = "Okta Verify 验证器";
             this.Load += new System.EventHandler(this.AddOktaVerifyAuthenticator_Load);
             ((System.ComponentModel.ISupportInitialize)(this.oktaIcon)).EndInit();
             this.ResumeLayout(false);

@@ -45,7 +45,7 @@
 			this.aboutLabel.Name = "aboutLabel";
 			this.aboutLabel.Size = new System.Drawing.Size(366, 45);
 			this.aboutLabel.TabIndex = 2;
-			this.aboutLabel.Text = "WinAuth {0}\r\nCopyright {1}. Colin Mackie. All rights reserved.\r\n";
+			this.aboutLabel.Text = "WinAuth {0}\r\n版权所有 {1}。Colin Mackie 保留所有权利。\r\n";
 			// 
 			// licenseLabel
 			// 
@@ -54,7 +54,7 @@
 			this.licenseLabel.Name = "licenseLabel";
 			this.licenseLabel.Size = new System.Drawing.Size(50, 19);
 			this.licenseLabel.TabIndex = 3;
-			this.licenseLabel.Text = "License";
+			this.licenseLabel.Text = "许可协议";
 			// 
 			// richTextBox1
 			// 
@@ -82,7 +82,7 @@
 			this.reportButton.Name = "reportButton";
 			this.reportButton.Size = new System.Drawing.Size(112, 23);
 			this.reportButton.TabIndex = 7;
-			this.reportButton.Text = "Diagnostics...";
+			this.reportButton.Text = "诊断信息...";
 			this.reportButton.UseSelectable = true;
 			this.reportButton.Click += new System.EventHandler(this.reportButton_Click);
 			// 
@@ -94,7 +94,7 @@
 			this.closeButton.Name = "closeButton";
 			this.closeButton.Size = new System.Drawing.Size(75, 23);
 			this.closeButton.TabIndex = 8;
-			this.closeButton.Text = "Close";
+			this.closeButton.Text = "关闭";
 			this.closeButton.UseSelectable = true;
 			this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
 			// 
@@ -112,7 +112,7 @@
 			this.Controls.Add(this.aboutLabel);
 			this.Name = "AboutForm";
 			this.Resizable = false;
-			this.Text = "About WinAuth";
+			this.Text = "关于 WinAuth";
 			this.Load += new System.EventHandler(this.AboutForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

@@ -44,7 +44,7 @@
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 2;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			// 
 			// versionInfoLabel
@@ -59,7 +59,7 @@
 			this.versionInfoLabel.Name = "versionInfoLabel";
 			this.versionInfoLabel.Size = new System.Drawing.Size(258, 67);
 			this.versionInfoLabel.TabIndex = 3;
-			this.versionInfoLabel.Text = "Latest Version: checking...";
+			this.versionInfoLabel.Text = "最新版本：正在检查...";
 			// 
 			// autoCheckbox
 			// 
@@ -95,7 +95,7 @@
 			this.okButton.Name = "okButton";
 			this.okButton.Size = new System.Drawing.Size(75, 23);
 			this.okButton.TabIndex = 2;
-			this.okButton.Text = "OK";
+			this.okButton.Text = "确定";
 			this.okButton.UseSelectable = true;
 			this.okButton.Click += new System.EventHandler(this.okButton_Click);
 			// 
@@ -105,7 +105,7 @@
 			this.autoLabel.Name = "autoLabel";
 			this.autoLabel.Size = new System.Drawing.Size(235, 45);
 			this.autoLabel.TabIndex = 6;
-			this.autoLabel.Text = "Automatically check for updates when WinAuth is started";
+			this.autoLabel.Text = "启动 WinAuth 时自动检查更新";
 			this.autoLabel.Click += new System.EventHandler(this.autoLabel_Click);
 			// 
 			// UpdateCheckForm
@@ -126,7 +126,7 @@
 			this.MinimizeBox = false;
 			this.Name = "UpdateCheckForm";
 			this.Resizable = false;
-			this.Text = "Check for Updates";
+			this.Text = "检查更新";
 			this.Load += new System.EventHandler(this.UpdateCheckForm_Load);
 			this.ResumeLayout(false);
 

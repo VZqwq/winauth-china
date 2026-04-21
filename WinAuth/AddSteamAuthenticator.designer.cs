@@ -107,7 +107,7 @@
 			this.loginButton.Name = "loginButton";
 			this.loginButton.Size = new System.Drawing.Size(110, 24);
 			this.loginButton.TabIndex = 2;
-			this.loginButton.Text = "Login";
+			this.loginButton.Text = "登录";
 			this.loginButton.UseSelectable = true;
 			this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
 			// 
@@ -117,7 +117,7 @@
 			this.authoriseTabLabel.Name = "authoriseTabLabel";
 			this.authoriseTabLabel.Size = new System.Drawing.Size(449, 45);
 			this.authoriseTabLabel.TabIndex = 1;
-			this.authoriseTabLabel.Text = "Please enter the code sent to your {0} email address approving access from a new " +
+			this.authoriseTabLabel.Text = "请输入发送到您 {0} 邮箱的批准新设备访问的代码" +
     "device.";
 			// 
 			// loginTabLabel
@@ -126,7 +126,7 @@
 			this.loginTabLabel.Name = "loginTabLabel";
 			this.loginTabLabel.Size = new System.Drawing.Size(431, 46);
 			this.loginTabLabel.TabIndex = 0;
-			this.loginTabLabel.Text = "Enter your steam username and password. This is needed to login to your account t" +
+			this.loginTabLabel.Text = "输入您的 Steam 用户名和密码。这是登录账户所必需" +
     "o add a new authenticator.";
 			// 
 			// captchaButton
@@ -135,7 +135,7 @@
 			this.captchaButton.Name = "captchaButton";
 			this.captchaButton.Size = new System.Drawing.Size(110, 23);
 			this.captchaButton.TabIndex = 1;
-			this.captchaButton.Text = "Login";
+			this.captchaButton.Text = "登录";
 			this.captchaButton.UseSelectable = true;
 			this.captchaButton.Click += new System.EventHandler(this.captchaButton_Click);
 			// 
@@ -170,7 +170,7 @@
 			this.captchaTabLabel.Name = "captchaTabLabel";
 			this.captchaTabLabel.Size = new System.Drawing.Size(249, 19);
 			this.captchaTabLabel.TabIndex = 0;
-			this.captchaTabLabel.Text = "Enter the characters you see in the image";
+			this.captchaTabLabel.Text = "输入图像中显示的字符";
 			// 
 			// confirmButton
 			// 
@@ -179,7 +179,7 @@
 			this.confirmButton.Name = "confirmButton";
 			this.confirmButton.Size = new System.Drawing.Size(116, 23);
 			this.confirmButton.TabIndex = 2;
-			this.confirmButton.Text = "Confirm";
+			this.confirmButton.Text = "确认";
 			this.confirmButton.UseSelectable = true;
 			this.confirmButton.Click += new System.EventHandler(this.confirmButton_Click);
 			// 
@@ -191,7 +191,7 @@
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 0;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
 			// 
@@ -226,7 +226,7 @@
 			this.iconLabel.Name = "iconLabel";
 			this.iconLabel.Size = new System.Drawing.Size(36, 19);
 			this.iconLabel.TabIndex = 3;
-			this.iconLabel.Text = "Icon:";
+			this.iconLabel.Text = "图标：";
 			// 
 			// nameLabel
 			// 
@@ -235,7 +235,7 @@
 			this.nameLabel.Name = "nameLabel";
 			this.nameLabel.Size = new System.Drawing.Size(48, 19);
 			this.nameLabel.TabIndex = 3;
-			this.nameLabel.Text = "Name:";
+			this.nameLabel.Text = "名称：";
 			// 
 			// nameField
 			// 
@@ -288,7 +288,7 @@
 			this.loginTab.Size = new System.Drawing.Size(456, 301);
 			this.loginTab.TabIndex = 0;
 			this.loginTab.Tag = "";
-			this.loginTab.Text = "Login";
+			this.loginTab.Text = "登录";
 			this.loginTab.VerticalScrollbarBarColor = true;
 			this.loginTab.VerticalScrollbarHighlightOnWheel = false;
 			this.loginTab.VerticalScrollbarSize = 10;
@@ -333,7 +333,7 @@
 			this.passwordLabel.Name = "passwordLabel";
 			this.passwordLabel.Size = new System.Drawing.Size(80, 25);
 			this.passwordLabel.TabIndex = 1;
-			this.passwordLabel.Text = "Password";
+			this.passwordLabel.Text = "密码";
 			// 
 			// usernameLabel
 			// 
@@ -341,7 +341,7 @@
 			this.usernameLabel.Name = "usernameLabel";
 			this.usernameLabel.Size = new System.Drawing.Size(80, 25);
 			this.usernameLabel.TabIndex = 1;
-			this.usernameLabel.Text = "Username";
+			this.usernameLabel.Text = "用户名";
 			// 
 			// authTab
 			// 
@@ -357,7 +357,7 @@
 			this.authTab.Size = new System.Drawing.Size(456, 301);
 			this.authTab.TabIndex = 2;
 			this.authTab.Tag = "";
-			this.authTab.Text = "Authorise";
+			this.authTab.Text = "授权";
 			this.authTab.VerticalScrollbarBarColor = true;
 			this.authTab.VerticalScrollbarHighlightOnWheel = false;
 			this.authTab.VerticalScrollbarSize = 10;
@@ -368,7 +368,7 @@
 			this.authcodeLabel.Name = "authcodeLabel";
 			this.authcodeLabel.Size = new System.Drawing.Size(80, 25);
 			this.authcodeLabel.TabIndex = 2;
-			this.authcodeLabel.Text = "Code";
+			this.authcodeLabel.Text = "代码";
 			// 
 			// authcodeButton
 			// 
@@ -376,7 +376,7 @@
 			this.authcodeButton.Name = "authcodeButton";
 			this.authcodeButton.Size = new System.Drawing.Size(110, 24);
 			this.authcodeButton.TabIndex = 1;
-			this.authcodeButton.Text = "Continue";
+			this.authcodeButton.Text = "继续";
 			this.authcodeButton.UseSelectable = true;
 			this.authcodeButton.Click += new System.EventHandler(this.authcodeButton_Click);
 			// 
@@ -411,7 +411,7 @@
 			this.confirmTab.Size = new System.Drawing.Size(456, 301);
 			this.confirmTab.TabIndex = 3;
 			this.confirmTab.Tag = "";
-			this.confirmTab.Text = "Confirm";
+			this.confirmTab.Text = "确认";
 			this.confirmTab.VerticalScrollbarBarColor = true;
 			this.confirmTab.VerticalScrollbarHighlightOnWheel = false;
 			this.confirmTab.VerticalScrollbarSize = 10;
@@ -423,7 +423,7 @@
 			this.revocationCheckbox.Name = "revocationCheckbox";
 			this.revocationCheckbox.Size = new System.Drawing.Size(235, 15);
 			this.revocationCheckbox.TabIndex = 1;
-			this.revocationCheckbox.Text = "I have written down my revocation code";
+			this.revocationCheckbox.Text = "我已记下我的撤销码";
 			this.revocationCheckbox.UseSelectable = true;
 			this.revocationCheckbox.CheckedChanged += new System.EventHandler(this.revocationCheckbox_CheckedChanged);
 			// 
@@ -434,7 +434,7 @@
 			this.revocationcodeCopy.Name = "revocationcodeCopy";
 			this.revocationcodeCopy.Size = new System.Drawing.Size(87, 15);
 			this.revocationcodeCopy.TabIndex = 3;
-			this.revocationcodeCopy.Text = "Allow copy?";
+			this.revocationcodeCopy.Text = "允许复制？";
 			this.revocationcodeCopy.UseSelectable = true;
 			this.revocationcodeCopy.CheckedChanged += new System.EventHandler(this.revocationcodeCopy_CheckedChanged);
 			// 
@@ -444,7 +444,7 @@
 			this.revocationcodeText.Name = "revocationcodeText";
 			this.revocationcodeText.Size = new System.Drawing.Size(442, 65);
 			this.revocationcodeText.TabIndex = 17;
-			this.revocationcodeText.Text = "This is your Recovery code. It can be used to remove the authenticator from your " +
+			this.revocationcodeText.Text = "这是您的恢复码。它可用于从您的 Steam 账户中移除验证器。" +
     "account if you ever lose it. Please write it down now and put it somewhere safe." +
     "";
 			// 
@@ -465,7 +465,7 @@
 			this.revocationcodeLabel.Name = "revocationcodeLabel";
 			this.revocationcodeLabel.Size = new System.Drawing.Size(111, 25);
 			this.revocationcodeLabel.TabIndex = 5;
-			this.revocationcodeLabel.Text = "Recovery code";
+			this.revocationcodeLabel.Text = "恢复码";
 			// 
 			// activationcodeLabel
 			// 
@@ -473,7 +473,7 @@
 			this.activationcodeLabel.Name = "activationcodeLabel";
 			this.activationcodeLabel.Size = new System.Drawing.Size(127, 25);
 			this.activationcodeLabel.TabIndex = 5;
-			this.activationcodeLabel.Text = "Confirmation code";
+			this.activationcodeLabel.Text = "确认码";
 			// 
 			// activationcodeField
 			// 
@@ -493,7 +493,7 @@
 			this.confirmTabLabel.Name = "confirmTabLabel";
 			this.confirmTabLabel.Size = new System.Drawing.Size(449, 34);
 			this.confirmTabLabel.TabIndex = 2;
-			this.confirmTabLabel.Text = "Enter the confirmation code you received by SMS to your phone.";
+			this.confirmTabLabel.Text = "输入您通过短信收到的确认码。";
 			// 
 			// addedTab
 			// 
@@ -509,7 +509,7 @@
 			this.addedTab.Size = new System.Drawing.Size(456, 301);
 			this.addedTab.TabIndex = 4;
 			this.addedTab.Tag = "";
-			this.addedTab.Text = "Added";
+			this.addedTab.Text = "已添加";
 			this.addedTab.VerticalScrollbarBarColor = true;
 			this.addedTab.VerticalScrollbarHighlightOnWheel = false;
 			this.addedTab.VerticalScrollbarSize = 10;
@@ -521,7 +521,7 @@
 			this.revocationcode2Copy.Name = "revocationcode2Copy";
 			this.revocationcode2Copy.Size = new System.Drawing.Size(87, 15);
 			this.revocationcode2Copy.TabIndex = 0;
-			this.revocationcode2Copy.Text = "Allow copy?";
+			this.revocationcode2Copy.Text = "允许复制？";
 			this.revocationcode2Copy.UseSelectable = true;
 			this.revocationcode2Copy.CheckedChanged += new System.EventHandler(this.revocationcode2Copy_CheckedChanged);
 			// 
@@ -531,7 +531,7 @@
 			this.revocationcode2Label.Name = "revocationcode2Label";
 			this.revocationcode2Label.Size = new System.Drawing.Size(111, 25);
 			this.revocationcode2Label.TabIndex = 8;
-			this.revocationcode2Label.Text = "Recovery code";
+			this.revocationcode2Label.Text = "恢复码";
 			// 
 			// revocationcode2Field
 			// 
@@ -550,7 +550,7 @@
 			this.metroLabel1.Name = "metroLabel1";
 			this.metroLabel1.Size = new System.Drawing.Size(449, 90);
 			this.metroLabel1.TabIndex = 2;
-			this.metroLabel1.Text = "Your authenticator has been added to your Steam account.\r\n\r\nPlease make sure you " +
+			this.metroLabel1.Text = "您的验证器已添加到您的 Steam 账户。\r\n\r\n请确保您" +
     "have copied down your recovery code so you can remove your authenticator from yo" +
     "ur Steam account in the future.\r\n";
 			// 
@@ -568,7 +568,7 @@
 			this.importAndroidTab.Name = "importAndroidTab";
 			this.importAndroidTab.Size = new System.Drawing.Size(456, 301);
 			this.importAndroidTab.TabIndex = 5;
-			this.importAndroidTab.Text = "Import Android";
+			this.importAndroidTab.Text = "导入安卓";
 			this.importAndroidTab.VerticalScrollbarBarColor = true;
 			this.importAndroidTab.VerticalScrollbarHighlightOnWheel = false;
 			this.importAndroidTab.VerticalScrollbarSize = 10;
@@ -592,7 +592,7 @@
 			this.metroLabel4.Name = "metroLabel4";
 			this.metroLabel4.Size = new System.Drawing.Size(449, 26);
 			this.metroLabel4.TabIndex = 10;
-			this.metroLabel4.Text = "From the files folder, paste contents of \'SteamGuard-NNNNNNNNNN\'";
+			this.metroLabel4.Text = "从 files 文件夹中，粘贴 \'SteamGuard-NNNNNNNNNN\' 的内容";
 			// 
 			// importUuid
 			// 
@@ -613,7 +613,7 @@
 			this.metroLabel2.Name = "metroLabel2";
 			this.metroLabel2.Size = new System.Drawing.Size(449, 26);
 			this.metroLabel2.TabIndex = 8;
-			this.metroLabel2.Text = "From the shared_prefs folder, paste contents of \'steam_uuid.xml\'";
+			this.metroLabel2.Text = "从 shared_prefs 文件夹中，粘贴 \'steam_uuid.xml\' 的内容";
 			// 
 			// metroLabel3
 			// 
@@ -642,7 +642,7 @@
 			this.importSDATab.Name = "importSDATab";
 			this.importSDATab.Size = new System.Drawing.Size(456, 301);
 			this.importSDATab.TabIndex = 6;
-			this.importSDATab.Text = "Import SDA";
+			this.importSDATab.Text = "导入 SDA";
 			this.importSDATab.VerticalScrollbarBarColor = true;
 			this.importSDATab.VerticalScrollbarHighlightOnWheel = false;
 			this.importSDATab.VerticalScrollbarSize = 10;
@@ -653,7 +653,7 @@
 			this.metroLabel8.Name = "metroLabel8";
 			this.metroLabel8.Size = new System.Drawing.Size(259, 27);
 			this.metroLabel8.TabIndex = 12;
-			this.metroLabel8.Text = "2. Enter your password (if you have one):";
+			this.metroLabel8.Text = "2. 输入您的密码（如果有）：";
 			// 
 			// metroLabel9
 			// 
@@ -661,7 +661,7 @@
 			this.metroLabel9.Name = "metroLabel9";
 			this.metroLabel9.Size = new System.Drawing.Size(60, 27);
 			this.metroLabel9.TabIndex = 12;
-			this.metroLabel9.Text = "3. Click";
+			this.metroLabel9.Text = "3. 点击";
 			// 
 			// metroLabel7
 			// 
@@ -669,7 +669,7 @@
 			this.metroLabel7.Name = "metroLabel7";
 			this.metroLabel7.Size = new System.Drawing.Size(301, 27);
 			this.metroLabel7.TabIndex = 12;
-			this.metroLabel7.Text = "and choose which account to import.";
+			this.metroLabel7.Text = "并选择要导入的账户。";
 			// 
 			// metroLabel6
 			// 
@@ -677,7 +677,7 @@
 			this.metroLabel6.Name = "metroLabel6";
 			this.metroLabel6.Size = new System.Drawing.Size(449, 28);
 			this.metroLabel6.TabIndex = 12;
-			this.metroLabel6.Text = "1. Select the manifest.json file where your maFiles are located.";
+			this.metroLabel6.Text = "1. 选择 maFiles 所在位置的 manifest.json 文件。";
 			// 
 			// importSDAList
 			// 
@@ -717,7 +717,7 @@
 			this.metroLabel5.Name = "metroLabel5";
 			this.metroLabel5.Size = new System.Drawing.Size(449, 29);
 			this.metroLabel5.TabIndex = 8;
-			this.metroLabel5.Text = "You can import an authenticator from SteamDesktopAuthenticator.";
+			this.metroLabel5.Text = "您可以从 SteamDesktopAuthenticator 导入验证器。";
 			// 
 			// importSDALoad
 			// 
@@ -725,7 +725,7 @@
 			this.importSDALoad.Name = "importSDALoad";
 			this.importSDALoad.Size = new System.Drawing.Size(75, 23);
 			this.importSDALoad.TabIndex = 1;
-			this.importSDALoad.Text = "Load";
+			this.importSDALoad.Text = "加载";
 			this.importSDALoad.UseSelectable = true;
 			this.importSDALoad.Click += new System.EventHandler(this.importSDALoad_Click);
 			// 
@@ -735,7 +735,7 @@
 			this.importSDABrowse.Name = "importSDABrowse";
 			this.importSDABrowse.Size = new System.Drawing.Size(75, 23);
 			this.importSDABrowse.TabIndex = 1;
-			this.importSDABrowse.Text = "Browse...";
+			this.importSDABrowse.Text = "浏览...";
 			this.importSDABrowse.UseSelectable = true;
 			this.importSDABrowse.Click += new System.EventHandler(this.importSDABrowse_Click);
 			// 
@@ -747,7 +747,7 @@
 			this.closeButton.Name = "closeButton";
 			this.closeButton.Size = new System.Drawing.Size(75, 23);
 			this.closeButton.TabIndex = 1;
-			this.closeButton.Text = "Close";
+			this.closeButton.Text = "关闭";
 			this.closeButton.UseSelectable = true;
 			this.closeButton.Visible = false;
 			this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
@@ -796,7 +796,7 @@
 			this.Name = "AddSteamAuthenticator";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Add Steam Authenticator";
+			this.Text = "添加 Steam 验证器";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddSteamAuthenticator_FormClosing);
 			this.Load += new System.EventHandler(this.AddSteamAuthenticator_Load);
 			this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AddSteamAuthenticator_KeyPress);

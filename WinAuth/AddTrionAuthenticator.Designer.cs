@@ -86,7 +86,7 @@
 			this.allowCopyNewButton.Name = "allowCopyNewButton";
 			this.allowCopyNewButton.Size = new System.Drawing.Size(87, 15);
 			this.allowCopyNewButton.TabIndex = 2;
-			this.allowCopyNewButton.Text = "Allow copy?";
+			this.allowCopyNewButton.Text = "允许复制？";
 			this.allowCopyNewButton.UseSelectable = true;
 			this.allowCopyNewButton.CheckedChanged += new System.EventHandler(this.allowCopyNewButton_CheckedChanged);
 			// 
@@ -96,7 +96,7 @@
 			this.enrollAuthenticatorButton.Name = "enrollAuthenticatorButton";
 			this.enrollAuthenticatorButton.Size = new System.Drawing.Size(177, 24);
 			this.enrollAuthenticatorButton.TabIndex = 0;
-			this.enrollAuthenticatorButton.Text = "Create Authenticator";
+			this.enrollAuthenticatorButton.Text = "创建验证器";
 			this.enrollAuthenticatorButton.UseSelectable = true;
 			this.enrollAuthenticatorButton.Click += new System.EventHandler(this.enrollAuthenticatorButton_Click);
 			// 
@@ -106,7 +106,7 @@
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(51, 25);
 			this.label3.TabIndex = 1;
-			this.label3.Text = "3. Click";
+			this.label3.Text = "3. 点击";
 			// 
 			// label8
 			// 
@@ -122,7 +122,7 @@
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(431, 25);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "4. Add the following Authenticator Serial Key with your secret answers:";
+			this.label2.Text = "4. 添加以下验证器序列密钥及您的安全答案：";
 			// 
 			// label1
 			// 
@@ -130,9 +130,9 @@
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(431, 58);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "1. Go to www.trionworlds.com and login to your account.\r\n2. Click the Security ta" +
-    "b, and \"Add the RIFT Mobile Authenticator\". You must have already added your secr" +
-    "et questions and answers.";
+			this.label1.Text = "1. 访问 www.trionworlds.com 并登录您的账户。\r\n2. 点击安全选项卡" +
+    "，然后选择"添加 RIFT 移动验证器"。您必须已经设置了安" +
+    "全问题和答案。";
 			// 
 			// restoreAnswer2Field
 			// 
@@ -164,7 +164,7 @@
 			this.restoreGetQuestionsButton.Name = "restoreGetQuestionsButton";
 			this.restoreGetQuestionsButton.Size = new System.Drawing.Size(166, 23);
 			this.restoreGetQuestionsButton.TabIndex = 2;
-			this.restoreGetQuestionsButton.Text = "Get Security Questions";
+			this.restoreGetQuestionsButton.Text = "获取安全问题";
 			this.restoreGetQuestionsButton.UseSelectable = true;
 			this.restoreGetQuestionsButton.Click += new System.EventHandler(this.restoreGetQuestionsButton_Click);
 			// 
@@ -174,7 +174,7 @@
 			this.restoreQuestion1Label.Name = "restoreQuestion1Label";
 			this.restoreQuestion1Label.Size = new System.Drawing.Size(413, 17);
 			this.restoreQuestion1Label.TabIndex = 1;
-			this.restoreQuestion1Label.Text = "Your first security question";
+			this.restoreQuestion1Label.Text = "您的第一个安全问题";
 			// 
 			// label13
 			// 
@@ -183,7 +183,7 @@
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(66, 19);
 			this.label13.TabIndex = 1;
-			this.label13.Text = "Password:";
+			this.label13.Text = "密码：";
 			// 
 			// restoreQuestion2Label
 			// 
@@ -191,7 +191,7 @@
 			this.restoreQuestion2Label.Name = "restoreQuestion2Label";
 			this.restoreQuestion2Label.Size = new System.Drawing.Size(413, 17);
 			this.restoreQuestion2Label.TabIndex = 1;
-			this.restoreQuestion2Label.Text = "Your second security question";
+			this.restoreQuestion2Label.Text = "您的第二个安全问题";
 			// 
 			// label12
 			// 
@@ -200,7 +200,7 @@
 			this.label12.Name = "label12";
 			this.label12.Size = new System.Drawing.Size(95, 19);
 			this.label12.TabIndex = 1;
-			this.label12.Text = "Email Address:";
+			this.label12.Text = "电子邮件地址：";
 			// 
 			// label5
 			// 
@@ -209,7 +209,7 @@
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(194, 19);
 			this.label5.TabIndex = 1;
-			this.label5.Text = "3. Answer your secret questions:";
+			this.label5.Text = "3. 回答您的安全问题：";
 			// 
 			// restoreDeviceIdField
 			// 
@@ -255,7 +255,7 @@
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(66, 19);
 			this.label7.TabIndex = 1;
-			this.label7.Text = "Device ID:";
+			this.label7.Text = "设备ID：";
 			// 
 			// label4
 			// 
@@ -264,7 +264,7 @@
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(413, 19);
 			this.label4.TabIndex = 1;
-			this.label4.Text = "2. Enter the Device ID you saved when you created your authenticator.";
+			this.label4.Text = "2. 输入您创建验证器时保存的设备ID。";
 			// 
 			// label9
 			// 
@@ -273,7 +273,7 @@
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(251, 19);
 			this.label9.TabIndex = 1;
-			this.label9.Text = "1. Enter your account email and password";
+			this.label9.Text = "1. 输入您的账户电子邮件和密码";
 			// 
 			// okButton
 			// 
@@ -283,7 +283,7 @@
 			this.okButton.Name = "okButton";
 			this.okButton.Size = new System.Drawing.Size(75, 23);
 			this.okButton.TabIndex = 5;
-			this.okButton.Text = "OK";
+			this.okButton.Text = "确定";
 			this.okButton.UseSelectable = true;
 			this.okButton.Click += new System.EventHandler(this.okButton_Click);
 			// 
@@ -295,7 +295,7 @@
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 6;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
 			// 
@@ -347,7 +347,7 @@
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(36, 19);
 			this.label10.TabIndex = 3;
-			this.label10.Text = "Icon:";
+			this.label10.Text = "图标：";
 			// 
 			// label6
 			// 
@@ -356,7 +356,7 @@
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(48, 19);
 			this.label6.TabIndex = 3;
-			this.label6.Text = "Name:";
+			this.label6.Text = "名称：";
 			// 
 			// nameField
 			// 
@@ -404,7 +404,7 @@
 			this.newAuthenticatorTab.Padding = new System.Windows.Forms.Padding(3);
 			this.newAuthenticatorTab.Size = new System.Drawing.Size(448, 326);
 			this.newAuthenticatorTab.TabIndex = 0;
-			this.newAuthenticatorTab.Text = "New Authenticator";
+			this.newAuthenticatorTab.Text = "新建验证器";
 			this.newAuthenticatorTab.VerticalScrollbarBarColor = true;
 			this.newAuthenticatorTab.VerticalScrollbarHighlightOnWheel = false;
 			this.newAuthenticatorTab.VerticalScrollbarSize = 10;
@@ -468,7 +468,7 @@
 			this.recoverAuthenticatorTab.Padding = new System.Windows.Forms.Padding(3);
 			this.recoverAuthenticatorTab.Size = new System.Drawing.Size(448, 326);
 			this.recoverAuthenticatorTab.TabIndex = 1;
-			this.recoverAuthenticatorTab.Text = "Recover Authenticator";
+			this.recoverAuthenticatorTab.Text = "恢复验证器";
 			this.recoverAuthenticatorTab.VerticalScrollbarBarColor = true;
 			this.recoverAuthenticatorTab.VerticalScrollbarHighlightOnWheel = false;
 			this.recoverAuthenticatorTab.VerticalScrollbarSize = 10;
@@ -554,7 +554,7 @@
 			this.Name = "AddTrionAuthenticator";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Add Glyph Authenticator";
+			this.Text = "添加 Glyph 验证器";
 			this.Load += new System.EventHandler(this.AddTrionAuthenticator_Load);
 			this.tabControl1.ResumeLayout(false);
 			this.newAuthenticatorTab.ResumeLayout(false);

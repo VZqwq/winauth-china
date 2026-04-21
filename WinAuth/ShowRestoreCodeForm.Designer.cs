@@ -62,7 +62,7 @@ namespace WinAuth
 			this.allowCopyCheckBox.Name = "allowCopyCheckBox";
 			this.allowCopyCheckBox.Size = new System.Drawing.Size(77, 17);
 			this.allowCopyCheckBox.TabIndex = 4;
-			this.allowCopyCheckBox.Text = "Allow copy";
+			this.allowCopyCheckBox.Text = "允许复制";
 			this.allowCopyCheckBox.CheckedChanged += new System.EventHandler(this.allowCopyCheckBox_CheckedChanged);
 			// 
 			// serialNumberField
@@ -82,7 +82,7 @@ namespace WinAuth
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(118, 19);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Serial Number";
+			this.label1.Text = "序列号";
 			// 
 			// restoreCodeField
 			// 
@@ -101,7 +101,7 @@ namespace WinAuth
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(118, 19);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "Restore Code";
+			this.label2.Text = "恢复码";
 			// 
 			// label4
 			// 
@@ -121,7 +121,7 @@ namespace WinAuth
 			this.btnClose.Name = "btnClose";
 			this.btnClose.Size = new System.Drawing.Size(75, 23);
 			this.btnClose.TabIndex = 4;
-			this.btnClose.Text = "Close";
+			this.btnClose.Text = "关闭";
 			this.btnClose.UseSelectable = true;
 			// 
 			// ShowRestoreCodeForm
@@ -142,7 +142,7 @@ namespace WinAuth
 			this.Name = "ShowRestoreCodeForm";
 			this.Resizable = false;
 			this.ShowIcon = false;
-			this.Text = "Battle.net Restore Code";
+			this.Text = "战网恢复码";
 			this.Load += new System.EventHandler(this.ShowRestoreCodeForm_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

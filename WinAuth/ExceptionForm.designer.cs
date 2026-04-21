@@ -75,7 +75,7 @@ namespace WinAuth
       this.quitButton.Name = "quitButton";
       this.quitButton.Size = new System.Drawing.Size(100, 28);
       this.quitButton.TabIndex = 0;
-      this.quitButton.Text = "Quit";
+      this.quitButton.Text = "退出";
       this.quitButton.UseVisualStyleBackColor = true;
       this.quitButton.Click += new System.EventHandler(this.quitButton_Click);
       // 
@@ -97,7 +97,7 @@ namespace WinAuth
       this.continueButton.Name = "continueButton";
       this.continueButton.Size = new System.Drawing.Size(100, 28);
       this.continueButton.TabIndex = 0;
-      this.continueButton.Text = "Continue";
+      this.continueButton.Text = "继续";
       this.continueButton.UseVisualStyleBackColor = true;
       this.continueButton.Click += new System.EventHandler(this.continueButton_Click);
       // 
@@ -109,7 +109,7 @@ namespace WinAuth
       this.detailsButton.Name = "detailsButton";
       this.detailsButton.Size = new System.Drawing.Size(117, 28);
       this.detailsButton.TabIndex = 0;
-      this.detailsButton.Text = "Show Details";
+      this.detailsButton.Text = "显示详细信息";
       this.detailsButton.UseVisualStyleBackColor = true;
       this.detailsButton.Click += new System.EventHandler(this.detailsButton_Click);
       // 
@@ -135,7 +135,7 @@ namespace WinAuth
       this.Resizable = false;
       this.ShowIcon = false;
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-      this.Text = "WinAuth Error";
+      this.Text = "WinAuth 错误";
       this.Load += new System.EventHandler(this.ExceptionForm_Load);
       ((System.ComponentModel.ISupportInitialize)(this.errorIcon)).EndInit();
       this.ResumeLayout(false);

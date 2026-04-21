@@ -84,7 +84,7 @@
 			this.loginButton.Name = "loginButton";
 			this.loginButton.Size = new System.Drawing.Size(110, 24);
 			this.loginButton.TabIndex = 3;
-			this.loginButton.Text = "Login";
+			this.loginButton.Text = "登录";
 			this.loginButton.UseSelectable = true;
 			this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
 			// 
@@ -94,7 +94,7 @@
 			this.loginTabLabel.Name = "loginTabLabel";
 			this.loginTabLabel.Size = new System.Drawing.Size(431, 29);
 			this.loginTabLabel.TabIndex = 0;
-			this.loginTabLabel.Text = "Enter your steam username and password.";
+			this.loginTabLabel.Text = "输入您的 Steam 用户名和密码。";
 			// 
 			// captchaButton
 			// 
@@ -102,7 +102,7 @@
 			this.captchaButton.Name = "captchaButton";
 			this.captchaButton.Size = new System.Drawing.Size(110, 23);
 			this.captchaButton.TabIndex = 4;
-			this.captchaButton.Text = "Login";
+			this.captchaButton.Text = "登录";
 			this.captchaButton.UseSelectable = true;
 			this.captchaButton.Click += new System.EventHandler(this.captchaButton_Click);
 			// 
@@ -137,7 +137,7 @@
 			this.captchaTabLabel.Name = "captchaTabLabel";
 			this.captchaTabLabel.Size = new System.Drawing.Size(249, 19);
 			this.captchaTabLabel.TabIndex = 0;
-			this.captchaTabLabel.Text = "Enter the characters you see in the image";
+			this.captchaTabLabel.Text = "输入图像中显示的字符";
 			// 
 			// cancelButton
 			// 
@@ -147,7 +147,7 @@
 			this.cancelButton.Name = "cancelButton";
 			this.cancelButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelButton.TabIndex = 0;
-			this.cancelButton.Text = "Cancel";
+			this.cancelButton.Text = "取消";
 			this.cancelButton.UseSelectable = true;
 			this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
 			// 
@@ -189,7 +189,7 @@
 			this.loginTab.Size = new System.Drawing.Size(456, 380);
 			this.loginTab.TabIndex = 0;
 			this.loginTab.Tag = "";
-			this.loginTab.Text = "Login";
+			this.loginTab.Text = "登录";
 			this.loginTab.VerticalScrollbarBarColor = true;
 			this.loginTab.VerticalScrollbarHighlightOnWheel = false;
 			this.loginTab.VerticalScrollbarSize = 10;
@@ -201,7 +201,7 @@
 			this.rememberBox.Name = "rememberBox";
 			this.rememberBox.Size = new System.Drawing.Size(103, 15);
 			this.rememberBox.TabIndex = 2;
-			this.rememberBox.Text = "remember me?";
+			this.rememberBox.Text = "记住我？";
 			this.rememberBox.UseSelectable = true;
 			// 
 			// captchaGroup
@@ -244,7 +244,7 @@
 			this.passwordLabel.Name = "passwordLabel";
 			this.passwordLabel.Size = new System.Drawing.Size(80, 25);
 			this.passwordLabel.TabIndex = 1;
-			this.passwordLabel.Text = "Password";
+			this.passwordLabel.Text = "密码";
 			// 
 			// usernameLabel
 			// 
@@ -252,7 +252,7 @@
 			this.usernameLabel.Name = "usernameLabel";
 			this.usernameLabel.Size = new System.Drawing.Size(80, 25);
 			this.usernameLabel.TabIndex = 1;
-			this.usernameLabel.Text = "Username";
+			this.usernameLabel.Text = "用户名";
 			// 
 			// tradesTab
 			// 
@@ -269,7 +269,7 @@
 			this.tradesTab.Size = new System.Drawing.Size(456, 380);
 			this.tradesTab.TabIndex = 2;
 			this.tradesTab.Tag = "";
-			this.tradesTab.Text = "Confirmations";
+			this.tradesTab.Text = "交易确认";
 			this.tradesTab.VerticalScrollbar = true;
 			this.tradesTab.VerticalScrollbarBarColor = true;
 			this.tradesTab.VerticalScrollbarHighlightOnWheel = false;
@@ -317,7 +317,7 @@
 			this.pollCheckbox.Name = "pollCheckbox";
 			this.pollCheckbox.Size = new System.Drawing.Size(96, 19);
 			this.pollCheckbox.TabIndex = 5;
-			this.pollCheckbox.Text = "Check every";
+			this.pollCheckbox.Text = "检查间隔";
 			this.pollCheckbox.UseSelectable = true;
 			// 
 			// pollNumeric
@@ -349,7 +349,7 @@
 			this.pollMinuesLabel.Name = "pollMinuesLabel";
 			this.pollMinuesLabel.Size = new System.Drawing.Size(80, 19);
 			this.pollMinuesLabel.TabIndex = 7;
-			this.pollMinuesLabel.Text = "minutes and";
+			this.pollMinuesLabel.Text = "分钟和";
 			// 
 			// tradesContainer
 			// 
@@ -418,7 +418,7 @@
 			this.tradeReject.Name = "tradeReject";
 			this.tradeReject.Size = new System.Drawing.Size(75, 23);
 			this.tradeReject.TabIndex = 1;
-			this.tradeReject.Text = "Cancel";
+			this.tradeReject.Text = "取消";
 			this.tradeReject.UseSelectable = true;
 			this.tradeReject.Click += new System.EventHandler(this.tradeReject_Click);
 			// 
@@ -430,7 +430,7 @@
 			this.tradeAccept.Name = "tradeAccept";
 			this.tradeAccept.Size = new System.Drawing.Size(75, 23);
 			this.tradeAccept.TabIndex = 0;
-			this.tradeAccept.Text = "Confirm";
+			this.tradeAccept.Text = "确认";
 			this.tradeAccept.UseSelectable = true;
 			this.tradeAccept.Click += new System.EventHandler(this.tradeAccept_Click);
 			// 
@@ -453,7 +453,7 @@
 			this.tradesEmptyLabel.Name = "tradesEmptyLabel";
 			this.tradesEmptyLabel.Size = new System.Drawing.Size(383, 29);
 			this.tradesEmptyLabel.TabIndex = 4;
-			this.tradesEmptyLabel.Text = "You have no trade confirmations";
+			this.tradesEmptyLabel.Text = "您没有交易确认";
 			this.tradesEmptyLabel.Visible = false;
 			// 
 			// browserContainer
@@ -475,7 +475,7 @@
 			this.closeButton.Name = "closeButton";
 			this.closeButton.Size = new System.Drawing.Size(75, 23);
 			this.closeButton.TabIndex = 1;
-			this.closeButton.Text = "Close";
+			this.closeButton.Text = "关闭";
 			this.closeButton.UseSelectable = true;
 			this.closeButton.Visible = false;
 			this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
@@ -500,7 +500,7 @@
 			this.logoutButton.Name = "logoutButton";
 			this.logoutButton.Size = new System.Drawing.Size(75, 23);
 			this.logoutButton.TabIndex = 4;
-			this.logoutButton.Text = "Forget me";
+			this.logoutButton.Text = "忘记我";
 			this.logoutButton.UseSelectable = true;
 			this.logoutButton.Visible = false;
 			this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
@@ -512,7 +512,7 @@
 			this.confirmAllButton.Name = "confirmAllButton";
 			this.confirmAllButton.Size = new System.Drawing.Size(75, 23);
 			this.confirmAllButton.TabIndex = 4;
-			this.confirmAllButton.Text = "Confirm All";
+			this.confirmAllButton.Text = "全部确认";
 			this.confirmAllButton.UseSelectable = true;
 			this.confirmAllButton.Visible = false;
 			this.confirmAllButton.Click += new System.EventHandler(this.confirmAllButton_Click);
@@ -524,7 +524,7 @@
 			this.cancelAllButton.Name = "cancelAllButton";
 			this.cancelAllButton.Size = new System.Drawing.Size(75, 23);
 			this.cancelAllButton.TabIndex = 4;
-			this.cancelAllButton.Text = "Cancel All";
+			this.cancelAllButton.Text = "全部取消";
 			this.cancelAllButton.UseSelectable = true;
 			this.cancelAllButton.Visible = false;
 			this.cancelAllButton.Click += new System.EventHandler(this.cancelAllButton_Click);
@@ -547,7 +547,7 @@
 			this.MaximizeBox = false;
 			this.Name = "ShowSteamTradesForm";
 			this.ShowIcon = false;
-			this.Text = "Steam Confirmations";
+			this.Text = "Steam 交易确认";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ShowSteamTradesForm_FormClosing);
 			this.Load += new System.EventHandler(this.ShowSteamTradesForm_Load);
 			this.Shown += new System.EventHandler(this.ShowSteamTradesForm_Shown);
