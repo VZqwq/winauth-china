@@ -131,7 +131,7 @@
 			this.label1.Size = new System.Drawing.Size(431, 58);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "1. 访问 www.trionworlds.com 并登录您的账户。\r\n2. 点击安全选项卡" +
-    "，然后选择"添加 RIFT 移动验证器"。您必须已经设置了安" +
+    "，然后选择「添加 RIFT 移动验证器」。您必须已经设置了安" +
     "全问题和答案。";
 			// 
 			// restoreAnswer2Field

@@ -339,7 +339,7 @@
 			this.metroLabel1.Size = new System.Drawing.Size(692, 47);
 			this.metroLabel1.TabIndex = 1;
 			this.metroLabel1.Text = "您的 YubiKey 必须在其某个插槽中支持使用 HMAC-SHA1 的挑战-响应。" +
-    " 使用 YubiKey 个人化工具配置插槽，或点击"配置插槽"按钮。";
+    " 使用 YubiKey 个人化工具配置插槽，或点击「配置插槽」按钮。";
 			// 
 			// yubikeyCheckButton
 			// 
@@ -413,7 +413,7 @@
 			this.yubiConfigureIntroLabel.Name = "yubiConfigureIntroLabel";
 			this.yubiConfigureIntroLabel.Size = new System.Drawing.Size(536, 23);
 			this.yubiConfigureIntroLabel.TabIndex = 1;
-			this.yubiConfigureIntroLabel.Text = "输入密码短语，或选择随机生成，然后按"更新插槽"来配置您的 YubiKey。";
+			this.yubiConfigureIntroLabel.Text = "输入密码短语，或选择随机生成，然后按「更新插槽」来配置您的 YubiKey。";
 			// 
 			// yubiPanelExists
 			// 

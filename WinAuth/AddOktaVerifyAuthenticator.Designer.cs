@@ -197,7 +197,7 @@
             this.step8Label.Name = "step8Label";
             this.step8Label.Size = new System.Drawing.Size(434, 22);
             this.step8Label.TabIndex = 0;
-            this.step8Label.Text = "8. 在设置流程中点击"下一步"并输入此处提供的代码：";
+            this.step8Label.Text = "8. 在设置流程中点击「下一步」并输入此处提供的代码：";
             // 
             // step9Label
             // 
@@ -206,7 +206,7 @@
             this.step9Label.Name = "step9Label";
             this.step9Label.Size = new System.Drawing.Size(434, 35);
             this.step9Label.TabIndex = 0;
-            this.step9Label.Text = "9. 点击"验证"完成。";
+            this.step9Label.Text = "9. 点击「验证」完成。";
             // 
             // linkLabel1
             // 

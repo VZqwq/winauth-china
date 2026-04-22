@@ -234,7 +234,7 @@
 			this.introLabel.Name = "introLabel";
 			this.introLabel.Size = new System.Drawing.Size(377, 35);
 			this.introLabel.TabIndex = 3;
-			this.introLabel.Text = "点击"添加"按钮来创建或导入验证器";
+			this.introLabel.Text = "点击「添加」按钮来创建或导入验证器";
 			this.introLabel.Visible = false;
 			// 
 			// commandPanel

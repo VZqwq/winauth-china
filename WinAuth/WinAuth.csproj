@@ -38,7 +38,8 @@
     <UpdateUrl>https://winauth.com/downloads/</UpdateUrl>
     <SupportUrl>https://winauth.com</SupportUrl>
     <ErrorReportUrl>https://code.google.com/p/winauth/issues/list</ErrorReportUrl>
-    <TargetCulture>en</TargetCulture>
+    <TargetCulture></TargetCulture>
+    <GenerateSatelliteAssemblies>false</GenerateSatelliteAssemblies>
     <ProductName>WinAuth</ProductName>
     <PublisherName>Colin Mackie</PublisherName>
     <MinimumRequiredVersion>3.0.10.0</MinimumRequiredVersion>
