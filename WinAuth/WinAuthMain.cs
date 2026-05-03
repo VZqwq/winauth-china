@@ -346,13 +346,10 @@ namespace WinAuth
 			}
 #endif
 
-			// Issue #53: set a default culture
-			if (System.Threading.Thread.CurrentThread.CurrentCulture == null || System.Threading.Thread.CurrentThread.CurrentUICulture == null)
-			{
-				CultureInfo ci = new CultureInfo("en"); // or en-US, en-GB
-				System.Threading.Thread.CurrentThread.CurrentCulture = ci;
-				System.Threading.Thread.CurrentThread.CurrentUICulture = ci;
-			}
+			// WinAuth-zhCN: 强制使用中文，不依赖系统 locale
+			CultureInfo ci = new CultureInfo("zh-CN");
+			System.Threading.Thread.CurrentThread.CurrentCulture = ci;
+			System.Threading.Thread.CurrentThread.CurrentUICulture = ci;
 
 			strings.Culture = System.Threading.Thread.CurrentThread.CurrentUICulture;
 
